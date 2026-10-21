@@ -1,0 +1,8 @@
+{
+  "name": "KOREAN VOCAB",
+  "description": "Nền tảng học và ghi nhớ từ vựng tiếng Hàn thông minh với Flashcard, Spaced Repetition, Lộ trình bài học & Kiểm tra định kỳ, Sổ tay tự chọn, AI Sửa ngữ pháp và Luyện phát âm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
