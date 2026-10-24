@@ -9,10 +9,10 @@ interface AppContextType {
   customNotebooks: CustomNotebook[];
   searchHistory: string[];
   userProfile: UserProfile;
-  activeTab: 'home' | 'review' | 'exam' | 'roadmap';
+  activeTab: 'home' | 'review' | 'exam' | 'roadmap' | 'game';
   activeTopicFilter: string;
   setActiveTopicFilter: (topic: string) => void;
-  setActiveTab: (tab: 'home' | 'review' | 'exam' | 'roadmap') => void;
+  setActiveTab: (tab: 'home' | 'review' | 'exam' | 'roadmap' | 'game') => void;
   
   // Modals
   saveWordModal: { isOpen: boolean; word: VocabWord | null };
@@ -108,11 +108,40 @@ const DEFAULT_PROFILE: UserProfile = {
 };
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  // Words state with persistence
+  // Words state with persistence and auto-upgrade to 1,000+ vocabulary database
   const [words, setWords] = useState<VocabWord[]>(() => {
-    const saved = localStorage.getItem('kv_words');
+    const saved = localStorage.getItem('kv_words_v4');
     if (saved) {
-      try { return JSON.parse(saved); } catch (e) { /* ignore */ }
+      try {
+        const parsed: VocabWord[] = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length >= INITIAL_VOCAB_LIST.length) {
+          return parsed;
+        }
+        // Merge missing words from INITIAL_VOCAB_LIST
+        const existingIds = new Set(parsed.map(w => w.id));
+        const merged = [...parsed];
+        for (const w of INITIAL_VOCAB_LIST) {
+          if (!existingIds.has(w.id)) {
+            merged.push(w);
+          }
+        }
+        return merged;
+      } catch (e) { /* ignore */ }
+    }
+    // Also check previous version kv_words_v3 to preserve custom words/mastery
+    const prevSaved = localStorage.getItem('kv_words_v3');
+    if (prevSaved) {
+      try {
+        const prevParsed: VocabWord[] = JSON.parse(prevSaved);
+        if (Array.isArray(prevParsed)) {
+          const statusMap = new Map(prevParsed.map(w => [w.id, { masteryStatus: w.masteryStatus, reviewCount: w.reviewCount }]));
+          const upgraded = INITIAL_VOCAB_LIST.map(w => {
+            const st = statusMap.get(w.id);
+            return st ? { ...w, ...st } : w;
+          });
+          return upgraded;
+        }
+      } catch (e) { /* ignore */ }
     }
     return INITIAL_VOCAB_LIST;
   });
@@ -153,7 +182,17 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     return DEFAULT_PROFILE;
   });
 
-  const [activeTab, setActiveTab] = useState<'home' | 'review' | 'exam' | 'roadmap'>('home');
+  const [activeTab, setActiveTab] = useState<'home' | 'review' | 'exam' | 'roadmap' | 'game'>(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const tab = params.get('tab');
+      if (tab === 'game' || params.has('gameRoom') || params.has('room') || params.has('invite')) {
+        return 'game';
+      }
+      if (tab === 'review' || tab === 'exam' || tab === 'roadmap') return tab;
+    }
+    return 'home';
+  });
   const [activeTopicFilter, setActiveTopicFilter] = useState<string>('all');
 
   // Modal States
@@ -186,7 +225,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   // Save to localStorage when state changes
   useEffect(() => {
-    localStorage.setItem('kv_words', JSON.stringify(words));
+    localStorage.setItem('kv_words_v4', JSON.stringify(words));
   }, [words]);
 
   useEffect(() => {

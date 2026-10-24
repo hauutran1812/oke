@@ -99,16 +99,42 @@ export const ProfileModal: React.FC = () => {
 
         {/* Form 1: Profile Info */}
         <form onSubmit={handleSaveProfile} className="mt-6 space-y-4">
-          <div className="flex items-center space-x-3 pb-3 border-b border-neutral-100">
-            <img
-              src={userProfile.avatarUrl}
-              alt={userProfile.name}
-              className="w-14 h-14 rounded-full object-cover border-2 border-teal-500 shadow-sm"
-            />
-            <div>
-              <p className="text-sm font-bold text-neutral-900">{userProfile.name}</p>
-              <p className="text-xs text-neutral-400">{userProfile.email}</p>
+          <div className="flex items-center justify-between pb-3 border-b border-neutral-100">
+            <div className="flex items-center space-x-3">
+              <img
+                src={userProfile.avatarUrl}
+                alt={userProfile.name}
+                className="w-14 h-14 rounded-full object-cover border-2 border-teal-500 shadow-sm"
+              />
+              <div>
+                <p className="text-sm font-bold text-neutral-900">{userProfile.name}</p>
+                <p className="text-xs text-neutral-500">{userProfile.phone || userProfile.email}</p>
+                <div className="mt-1 flex items-center space-x-1.5">
+                  <span className="inline-flex items-center space-x-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-teal-50 text-teal-700 border border-teal-200">
+                    <span>
+                      {userProfile.authProvider === 'google'
+                        ? 'Đăng nhập với Google'
+                        : userProfile.authProvider === 'facebook'
+                        ? 'Đăng nhập với Facebook'
+                        : userProfile.authProvider === 'phone'
+                        ? 'Số điện thoại xác thực'
+                        : 'Tài khoản Email'}
+                    </span>
+                  </span>
+                </div>
+              </div>
             </div>
+
+            <button
+              type="button"
+              onClick={() => {
+                updateUserProfile({ isLoggedIn: false });
+                setProfileModalOpen(false);
+              }}
+              className="text-xs font-bold text-rose-600 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 border border-rose-200 px-3 py-1.5 rounded-xl transition-colors cursor-pointer"
+            >
+              Đăng xuất
+            </button>
           </div>
 
           <div>

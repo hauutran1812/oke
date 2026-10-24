@@ -14,6 +14,8 @@ import {
   Menu,
   X,
   Compass,
+  Gamepad2,
+  Pickaxe,
 } from 'lucide-react';
 
 export const Header: React.FC = () => {
@@ -33,9 +35,10 @@ export const Header: React.FC = () => {
 
   const navItems = [
     { id: 'home', label: 'Trang chủ', icon: BookOpen },
+    { id: 'roadmap', label: 'Tiến độ học tập', icon: Compass },
     { id: 'review', label: 'Ôn tập (Flashcard)', icon: Layers },
     { id: 'exam', label: 'Thi thử', icon: Award },
-    { id: 'roadmap', label: 'Tiến độ học tập', icon: Compass },
+    { id: 'game', label: 'Trò chơi đào vàng', icon: Gamepad2, badge: 'Đào Vàng' },
   ];
 
   const handleLogout = () => {
@@ -45,28 +48,28 @@ export const Header: React.FC = () => {
 
   return (
     <header className="sticky top-0 z-40 w-full bg-[#FAF8F5]/95 backdrop-blur-md border-b border-[#E8E2D9] transition-all duration-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20 sm:h-24">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-2.5 sm:space-x-3.5">
             <button
               onClick={() => setActiveTab('home')}
-              className="flex items-center space-x-3.5 text-left group focus:outline-none cursor-pointer"
+              className="flex items-center space-x-2.5 sm:space-x-3.5 text-left group focus:outline-none cursor-pointer"
             >
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl overflow-hidden shadow-md shadow-teal-700/15 group-hover:scale-105 transition-transform duration-200 border border-teal-100/90 flex-shrink-0 bg-white p-0.5">
+              <div className="w-11 h-11 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl overflow-hidden shadow-sm shadow-teal-700/15 group-hover:scale-105 transition-transform duration-200 border border-teal-100/90 flex-shrink-0 bg-white p-0.5">
                 <img
-                  src="/korean_vocab_logo.jpg"
+                  src="/app-icon.png"
                   alt="KOREAN VOCAB Logo"
-                  className="w-full h-full object-cover rounded-xl"
+                  className="w-full h-full object-contain rounded-lg sm:rounded-xl"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <div>
-                <div className="flex items-center space-x-2">
-                  <span className="font-black text-2xl sm:text-3xl tracking-tight text-neutral-800">
+                <div className="flex items-center space-x-1.5 sm:space-x-2">
+                  <span className="font-black text-xl sm:text-3xl tracking-tight text-neutral-800">
                     KOREAN <span className="text-teal-600">VOCAB</span>
                   </span>
-                  <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-teal-100 text-teal-800 uppercase tracking-wider hidden sm:inline-block">
+                  <span className="text-[10px] sm:text-[11px] font-bold px-1.5 sm:px-2 py-0.5 rounded-full bg-teal-100 text-teal-800 uppercase tracking-wider hidden sm:inline-block">
                     AI Smart
                   </span>
                 </div>
@@ -86,7 +89,7 @@ export const Header: React.FC = () => {
                 <button
                   key={item.id}
                   onClick={() => setActiveTab(item.id as any)}
-                  className={`flex items-center space-x-2 px-3.5 py-2 rounded-xl text-sm font-semibold transition-all duration-150 ${
+                  className={`flex items-center space-x-1.5 px-3 py-2 rounded-xl text-sm font-semibold transition-all duration-150 ${
                     isActive
                       ? 'bg-teal-600 text-white shadow-sm shadow-teal-600/20'
                       : 'text-neutral-700 hover:text-neutral-900 hover:bg-neutral-200/50'
@@ -94,6 +97,17 @@ export const Header: React.FC = () => {
                 >
                   <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-neutral-500'}`} />
                   <span>{item.label}</span>
+                  {item.badge && (
+                    <span
+                      className={`text-[10px] font-black uppercase px-1.5 py-0.5 rounded-full tracking-wider ${
+                        isActive
+                          ? 'bg-white text-teal-800'
+                          : 'bg-amber-100 text-amber-800 border border-amber-200'
+                      }`}
+                    >
+                      {item.badge}
+                    </span>
+                  )}
                 </button>
               );
             })}
@@ -230,14 +244,25 @@ export const Header: React.FC = () => {
                   setActiveTab(item.id as any);
                   setMobileMenuOpen(false);
                 }}
-                className={`w-full flex items-center space-x-3 px-4 py-3 rounded-xl text-sm font-semibold transition-all ${
+                className={`w-full flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold transition-all ${
                   isActive
                     ? 'bg-teal-600 text-white'
                     : 'text-neutral-700 hover:bg-neutral-200/50'
                 }`}
               >
-                <Icon className={`w-5 h-5 ${isActive ? 'text-white' : 'text-neutral-500'}`} />
-                <span>{item.label}</span>
+                <div className="flex items-center space-x-3">
+                  <Icon className={`w-5 h-5 ${isActive ? 'text-white' : 'text-neutral-500'}`} />
+                  <span>{item.label}</span>
+                </div>
+                {item.badge && (
+                  <span
+                    className={`text-[10px] font-black uppercase px-2 py-0.5 rounded-full tracking-wider ${
+                      isActive ? 'bg-white text-teal-800' : 'bg-amber-100 text-amber-800'
+                    }`}
+                  >
+                    {item.badge}
+                  </span>
+                )}
               </button>
             );
           })}

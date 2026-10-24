@@ -1,6 +1,28 @@
-export type PartOfSpeech = 'Danh từ' | 'Động từ' | 'Tính từ' | 'Phó từ' | 'Đại từ' | 'Thành ngữ' | 'Liên từ';
+export type PartOfSpeech =
+  | 'Danh từ'
+  | 'Động từ'
+  | 'Tính từ'
+  | 'Phó từ'
+  | 'Đại từ'
+  | 'Thành ngữ'
+  | 'Liên từ'
+  | 'Thán từ'
+  | 'Quán dụng ngữ'
+  | 'Từ vựng';
 
-export type VocabLevel = 'Sơ cấp 1' | 'Sơ cấp 2' | 'Trung cấp' | 'Cao cấp' | 'TOPIK I' | 'TOPIK II';
+export type VocabLevel =
+  | 'TOPIK 1'
+  | 'TOPIK 2'
+  | 'TOPIK 3'
+  | 'TOPIK 4'
+  | 'TOPIK 5'
+  | 'TOPIK 6'
+  | 'Sơ cấp 1'
+  | 'Sơ cấp 2'
+  | 'Trung cấp'
+  | 'Cao cấp'
+  | 'TOPIK I'
+  | 'TOPIK II';
 
 export type MasteryStatus = 'unlearned' | 'hard' | 'good' | 'easy' | 'mastered';
 
@@ -12,6 +34,7 @@ export interface VocabWord {
   partOfSpeech: PartOfSpeech;
   pronunciation: string;
   level: VocabLevel;
+  topikLevel?: 1 | 2 | 3 | 4 | 5 | 6;
   topic: string;
   example: {
     korean: string;
@@ -54,6 +77,24 @@ export interface GrammarCheckResult {
   honorificLevel?: string;
 }
 
+export interface SentenceVocabularyItem {
+  word: string;
+  meaning: string;
+  partOfSpeech: string;
+}
+
+export interface SentenceTranslationResult {
+  sourceText: string;
+  translatedText: string;
+  sourceLanguage: 'ko' | 'vi' | string;
+  targetLanguage: 'vi' | 'ko' | string;
+  pronunciation?: string;
+  politeness?: string;
+  vocabularyBreakdown: SentenceVocabularyItem[];
+  grammarStructures: string[];
+  alternativeTranslations?: string[];
+}
+
 export interface PronunciationEvaluation {
   score: number;
   accuracyLevel: 'Tuyệt vời' | 'Khá tốt' | 'Cần luyện thêm';
@@ -76,6 +117,7 @@ export interface QuizTest {
   id: string;
   title: string;
   level: string;
+  topikLevel?: number;
   description: string;
   durationMinutes: number;
   questions: QuizQuestion[];
@@ -106,6 +148,8 @@ export interface UserProfile {
   name: string;
   email: string;
   avatarUrl: string;
+  phone?: string;
+  authProvider?: 'google' | 'facebook' | 'phone' | 'email';
   levelGoal: 'Sơ cấp 1' | 'TOPIK I' | 'TOPIK II' | 'Giao tiếp hàng ngày';
   hasLearnedBefore: boolean;
   streakDays: number;

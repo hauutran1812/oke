@@ -1,0 +1,2309 @@
+[
+  {
+    "id": "w-1",
+    "korean": "안녕하세요",
+    "vietnamese": "Xin chào (lịch sự)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[an-nyeong-ha-se-yo]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Chào hỏi & Giao tiếp",
+    "example": {
+      "korean": "안녕하세요! 처음 뵙겠습니다.",
+      "vietnamese": "Xin chào! Lần đầu tiên tôi được gặp bạn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "安寧하세요 [an ninh]",
+    "synonyms": [
+      "안녕하십니까"
+    ]
+  },
+  {
+    "id": "w-2",
+    "korean": "감사합니다",
+    "vietnamese": "Cảm ơn (trân trọng)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[gam-sa-ham-ni-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Chào hỏi & Giao tiếp",
+    "example": {
+      "korean": "도와주셔서 정말 감사합니다.",
+      "vietnamese": "Rất cảm ơn bạn đã giúp đỡ tôi."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "感謝합니다 [cảm tạ]",
+    "synonyms": [
+      "고맙습니다"
+    ]
+  },
+  {
+    "id": "w-3",
+    "korean": "죄송합니다",
+    "vietnamese": "Xin lỗi (trang trọng)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[joe-song-ham-ni-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Chào hỏi & Giao tiếp",
+    "example": {
+      "korean": "늦어서 정말 죄송합니다.",
+      "vietnamese": "Tôi vô cùng xin lỗi vì đã đến muộn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "罪悚합니다 [tội tủng]",
+    "synonyms": [
+      "미안합니다"
+    ]
+  },
+  {
+    "id": "w-4",
+    "korean": "이름",
+    "vietnamese": "Tên, họ tên",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[i-reum]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Giới thiệu bản thân",
+    "example": {
+      "korean": "이름이 무엇입니까?",
+      "vietnamese": "Tên của bạn là gì?"
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "synonyms": [
+      "성함"
+    ]
+  },
+  {
+    "id": "w-5",
+    "korean": "사람",
+    "vietnamese": "Người, con người",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[sa-ram]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Giới thiệu bản thân",
+    "example": {
+      "korean": "저는 베트남 사람입니다.",
+      "vietnamese": "Tôi là người Việt Nam."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "synonyms": [
+      "인간"
+    ]
+  },
+  {
+    "id": "w-6",
+    "korean": "학생",
+    "vietnamese": "Học sinh, sinh viên",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[hak-saeng]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Trường học & Học tập",
+    "example": {
+      "korean": "저는 대학교 2학년 학생입니다.",
+      "vietnamese": "Tôi là sinh viên năm thứ hai đại học."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "學生 [học sinh]"
+  },
+  {
+    "id": "w-7",
+    "korean": "선생님",
+    "vietnamese": "Thầy/Cô giáo, tiền bối",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[seon-saeng-nim]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Trường học & Học tập",
+    "example": {
+      "korean": "선생님, 질문이 하나 있습니다.",
+      "vietnamese": "Thưa thầy, em có một câu hỏi ạ."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "先生님 [tiên sinh]"
+  },
+  {
+    "id": "w-8",
+    "korean": "한국어",
+    "vietnamese": "Tiếng Hàn, tiếng Hàn Quốc",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[han-gu-geo]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Trường học & Học tập",
+    "example": {
+      "korean": "저는 매일 한국어를 열심히 공부해요.",
+      "vietnamese": "Tôi chăm chỉ học tiếng Hàn mỗi ngày."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "韓國語 [Hàn Quốc ngữ]"
+  },
+  {
+    "id": "w-9",
+    "korean": "친구",
+    "vietnamese": "Bạn bè, người bạn",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[chin-gu]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Gia đình & Bạn bè",
+    "example": {
+      "korean": "주말에 친구를 만나요.",
+      "vietnamese": "Cuối tuần tôi gặp bạn bè."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "親舊 [thân cựu]"
+  },
+  {
+    "id": "w-10",
+    "korean": "가족",
+    "vietnamese": "Gia đình",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[ga-jok]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Gia đình & Bạn bè",
+    "example": {
+      "korean": "우리 가족은 모두 네 명입니다.",
+      "vietnamese": "Gia đình tôi có tất cả 4 người."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "家族 [gia tộc]"
+  },
+  {
+    "id": "w-11",
+    "korean": "물",
+    "vietnamese": "Nước uống, nước",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[mul]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Ăn uống & Đời sống",
+    "example": {
+      "korean": "시원한 물 한 잔 주세요.",
+      "vietnamese": "Làm ơn cho tôi một cốc nước mát."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "불"
+    ]
+  },
+  {
+    "id": "w-12",
+    "korean": "밥",
+    "vietnamese": "Cơm, bữa ăn",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[bap]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Ăn uống & Đời sống",
+    "example": {
+      "korean": "아침에 밥을 맛있게 먹었어요.",
+      "vietnamese": "Buổi sáng tôi đã ăn cơm rất ngon."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "synonyms": [
+      "식사"
+    ]
+  },
+  {
+    "id": "w-13",
+    "korean": "사과",
+    "vietnamese": "Quả táo",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[sa-gwa]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Ăn uống & Đời sống",
+    "example": {
+      "korean": "시장 가서 사과 세 개를 샀어요.",
+      "vietnamese": "Tôi đi chợ mua 3 quả táo."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "沙果 [sa quả]"
+  },
+  {
+    "id": "w-14",
+    "korean": "가다",
+    "vietnamese": "Đi, di chuyển đến",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[ga-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Hành động thường ngày",
+    "example": {
+      "korean": "내일 서울에 가요.",
+      "vietnamese": "Ngày mai tôi đi Seoul."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "오다"
+    ]
+  },
+  {
+    "id": "w-15",
+    "korean": "오다",
+    "vietnamese": "Đến, tới nơi",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[o-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Hành động thường ngày",
+    "example": {
+      "korean": "친구가 우리 집에 왔어요.",
+      "vietnamese": "Bạn đã đến nhà tôi chơi."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "가다"
+    ]
+  },
+  {
+    "id": "w-16",
+    "korean": "먹다",
+    "vietnamese": "Ăn, dùng bữa",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[meok-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Ăn uống & Đời sống",
+    "example": {
+      "korean": "한국 음식을 좋아해서 자주 먹어요.",
+      "vietnamese": "Tôi thích đồ ăn Hàn Quốc nên hay ăn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "synonyms": [
+      "드시다"
+    ],
+    "antonyms": [
+      "굶다"
+    ]
+  },
+  {
+    "id": "w-17",
+    "korean": "마시다",
+    "vietnamese": "Uống",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[ma-si-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Ăn uống & Đời sống",
+    "example": {
+      "korean": "카페에서 따뜻한 차를 마셔요.",
+      "vietnamese": "Tôi uống trà ấm ở quán cà phê."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-18",
+    "korean": "자다",
+    "vietnamese": "Ngủ",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[ja-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Hành động thường ngày",
+    "example": {
+      "korean": "어젯밤에 일찍 잤어요.",
+      "vietnamese": "Tối qua tôi đã đi ngủ sớm."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "synonyms": [
+      "주무시다"
+    ],
+    "antonyms": [
+      "깨다"
+    ]
+  },
+  {
+    "id": "w-19",
+    "korean": "보다",
+    "vietnamese": "Xem, nhìn, ngắm",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[bo-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Hành động thường ngày",
+    "example": {
+      "korean": "영화관에서 한국 영화를 봐요.",
+      "vietnamese": "Tôi xem phim Hàn Quốc ở rạp chiếu phim."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-20",
+    "korean": "읽다",
+    "vietnamese": "Đọc (sách, báo)",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[ik-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Trường học & Học tập",
+    "example": {
+      "korean": "도서관에서 책을 읽고 있어요.",
+      "vietnamese": "Tôi đang đọc sách ở thư viện."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-21",
+    "korean": "쓰다",
+    "vietnamese": "Viết (hoặc đội mũ, đắng)",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[sseu-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Trường học & Học tập",
+    "example": {
+      "korean": "공책에 한국어 단어를 써요.",
+      "vietnamese": "Tôi viết từ vựng tiếng Hàn vào vở ghi."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-22",
+    "korean": "좋다",
+    "vietnamese": "Tốt, đẹp, thích",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[jo-ta]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Tính chất & Cảm nhận",
+    "example": {
+      "korean": "오늘 날씨가 정말 좋아요.",
+      "vietnamese": "Hôm nay thời tiết thật là đẹp."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "나쁘다"
+    ]
+  },
+  {
+    "id": "w-23",
+    "korean": "크다",
+    "vietnamese": "To, lớn, cao lớn",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[keu-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Tính chất & Cảm nhận",
+    "example": {
+      "korean": "이 가방은 크고 가벼워요.",
+      "vietnamese": "Chiếc túi này to và nhẹ."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "작다"
+    ]
+  },
+  {
+    "id": "w-24",
+    "korean": "작다",
+    "vietnamese": "Nhỏ, bé",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[jak-da]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Tính chất & Cảm nhận",
+    "example": {
+      "korean": "신발이 조금 작아요.",
+      "vietnamese": "Đôi giày hơi bị chật/nhỏ một chút."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "크다"
+    ]
+  },
+  {
+    "id": "w-25",
+    "korean": "많다",
+    "vietnamese": "Nhiều",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[man-ta]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Số lượng & Mức độ",
+    "example": {
+      "korean": "도서관에 사람이 많아요.",
+      "vietnamese": "Ở thư viện có rất nhiều người."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "적다"
+    ]
+  },
+  {
+    "id": "w-26",
+    "korean": "오늘",
+    "vietnamese": "Hôm nay",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[o-neul]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Thời gian & Lịch",
+    "example": {
+      "korean": "오늘 약속이 있어요?",
+      "vietnamese": "Hôm nay bạn có hẹn không?"
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "어제",
+      "내일"
+    ]
+  },
+  {
+    "id": "w-27",
+    "korean": "어제",
+    "vietnamese": "Hôm qua",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[eo-je]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Thời gian & Lịch",
+    "example": {
+      "korean": "어제 비가 많이 왔어요.",
+      "vietnamese": "Hôm qua trời mưa rất to."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-28",
+    "korean": "내일",
+    "vietnamese": "Ngày mai",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[nae-il]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Thời gian & Lịch",
+    "example": {
+      "korean": "내일 시험을 봐요.",
+      "vietnamese": "Ngày mai tôi thi."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "來日 [lai nhật]"
+  },
+  {
+    "id": "w-29",
+    "korean": "지금",
+    "vietnamese": "Bây giờ, hiện tại",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[ji-geum]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Thời gian & Lịch",
+    "example": {
+      "korean": "지금 몇 시예요?",
+      "vietnamese": "Bây giờ là mấy giờ rồi ạ?"
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "只今 [chỉ kim]"
+  },
+  {
+    "id": "w-30",
+    "korean": "집",
+    "vietnamese": "Nhà, ngôi nhà",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[jip]",
+    "level": "TOPIK 1",
+    "topikLevel": 1,
+    "topic": "Gia đình & Bạn bè",
+    "example": {
+      "korean": "수업 끝나고 집에 가요.",
+      "vietnamese": "Học xong tôi về nhà."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "synonyms": [
+      "댁"
+    ]
+  },
+  {
+    "id": "w-31",
+    "korean": "주문하다",
+    "vietnamese": "Đặt món, gọi món, đặt hàng",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[ju-mun-ha-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Nhà hàng & Mua sắm",
+    "example": {
+      "korean": "여기 불고기 2인분 주문할게요.",
+      "vietnamese": "Làm ơn cho tôi gọi 2 suất thịt nướng Bulgogi."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "注文하다 [chú văn]",
+    "synonyms": [
+      "시키다"
+    ]
+  },
+  {
+    "id": "w-32",
+    "korean": "계산하다",
+    "vietnamese": "Thanh toán, tính tiền",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[gye-san-ha-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Nhà hàng & Mua sắm",
+    "example": {
+      "korean": "카드로 계산해 주세요.",
+      "vietnamese": "Làm ơn thanh toán bằng thẻ giúp tôi."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "計算하다 [kế toán]"
+  },
+  {
+    "id": "w-33",
+    "korean": "지하철",
+    "vietnamese": "Tàu điện ngầm",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[ji-ha-cheol]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Giao thông & Đi lại",
+    "example": {
+      "korean": "출퇴근 시간에는 지하철을 타는 것이 빨라요.",
+      "vietnamese": "Vào giờ cao điểm thì đi tàu điện ngầm sẽ nhanh hơn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "地下鐵 [địa hạ thiết]"
+  },
+  {
+    "id": "w-34",
+    "korean": "정류장",
+    "vietnamese": "Trạm dừng (xe buýt)",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[jeong-nyu-jang]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Giao thông & Đi lại",
+    "example": {
+      "korean": "버스 정류장이 어디에 있어요?",
+      "vietnamese": "Trạm xe buýt ở đâu vậy ạ?"
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "停留場 [đình lưu trường]"
+  },
+  {
+    "id": "w-35",
+    "korean": "가깝다",
+    "vietnamese": "Gần, ở cự ly gần",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[ga-kkap-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Vị trí & Phương hướng",
+    "example": {
+      "korean": "우리 집은 역에서 매우 가까워요.",
+      "vietnamese": "Nhà tôi rất gần ga tàu."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "멀다"
+    ]
+  },
+  {
+    "id": "w-36",
+    "korean": "멀다",
+    "vietnamese": "Xa, cách xa",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[meol-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Vị trí & Phương hướng",
+    "example": {
+      "korean": "여기서 공항까지 멉니까?",
+      "vietnamese": "Từ đây đến sân bay có xa không?"
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "가깝다"
+    ]
+  },
+  {
+    "id": "w-37",
+    "korean": "예약하다",
+    "vietnamese": "Đặt trước (vé, phòng, chỗ)",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[ye-yak-ha-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Du lịch & Khách sạn",
+    "example": {
+      "korean": "호텔 방을 미리 예약했습니다.",
+      "vietnamese": "Tôi đã đặt trước phòng khách sạn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "豫約하다 [dự ước]"
+  },
+  {
+    "id": "w-38",
+    "korean": "할인",
+    "vietnamese": "Giảm giá, chiết khấu",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[ha-rin]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Nhà hàng & Mua sắm",
+    "example": {
+      "korean": "학생증이 있으면 10% 할인을 받아요.",
+      "vietnamese": "Nếu có thẻ học sinh sẽ được giảm giá 10%."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "割引 [cát dẫn]"
+  },
+  {
+    "id": "w-39",
+    "korean": "갈아타다",
+    "vietnamese": "Đổi tuyến, chuyển xe (transit)",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[ga-ra-ta-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Giao thông & Đi lại",
+    "example": {
+      "korean": "시청역에서 2호선으로 갈아타세요.",
+      "vietnamese": "Hãy đổi sang line số 2 tại ga City Hall nhé."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "synonyms": [
+      "환승하다"
+    ]
+  },
+  {
+    "id": "w-40",
+    "korean": "감기",
+    "vietnamese": "Cảm cúm, cảm lạnh",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[gam-gi]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Sức khỏe & Y tế",
+    "example": {
+      "korean": "감기에 걸려서 병원에 다녀왔어요.",
+      "vietnamese": "Tôi bị cảm cúm nên đã đi khám bác sĩ về."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "感氣 [cảm khí]"
+  },
+  {
+    "id": "w-41",
+    "korean": "약국",
+    "vietnamese": "Hiệu thuốc tây",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[yak-guk]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Sức khỏe & Y tế",
+    "example": {
+      "korean": "약국에서 감기약을 샀어요.",
+      "vietnamese": "Tôi mua thuốc cảm ở hiệu thuốc."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "藥局 [dược cục]"
+  },
+  {
+    "id": "w-42",
+    "korean": "도착하다",
+    "vietnamese": "Đến nơi, cập bến",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[do-cha-ka-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Du lịch & Khách sạn",
+    "example": {
+      "korean": "비행기가 인천공항에 안전하게 도착했습니다.",
+      "vietnamese": "Máy bay đã hạ cánh an toàn xuống sân bay Incheon."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "到着하다 [đáo trước]",
+    "antonyms": [
+      "출발하다"
+    ]
+  },
+  {
+    "id": "w-43",
+    "korean": "출발하다",
+    "vietnamese": "Khởi hành, xuất phát",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[chul-bal-ha-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Du lịch & Khách sạn",
+    "example": {
+      "korean": "버스는 오전 9시에 정각에 출발합니다.",
+      "vietnamese": "Xe buýt xuất phát đúng 9 giờ sáng."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "出發하다 [xuất phát]",
+    "antonyms": [
+      "도착하다"
+    ]
+  },
+  {
+    "id": "w-44",
+    "korean": "준비하다",
+    "vietnamese": "Chuẩn bị, sắm sửa",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[jun-bi-ha-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Đời sống hàng ngày",
+    "example": {
+      "korean": "내일 여행 갈 짐을 준비하고 있어요.",
+      "vietnamese": "Tôi đang chuẩn bị hành lý cho chuyến du lịch ngày mai."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "準備하다 [chuẩn bị]"
+  },
+  {
+    "id": "w-45",
+    "korean": "편리하다",
+    "vietnamese": "Tiện lợi, thuận tiện",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[pyeon-ni-ha-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Tính chất & Cảm nhận",
+    "example": {
+      "korean": "온라인 쇼핑은 정말 편리해요.",
+      "vietnamese": "Mua sắm trực tuyến thực sự rất tiện lợi."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "便利하다 [tiện lợi]",
+    "antonyms": [
+      "불편하다"
+    ]
+  },
+  {
+    "id": "w-46",
+    "korean": "불편하다",
+    "vietnamese": "Bất tiện, không thoải mái",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[bul-pyeon-ha-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Tính chất & Cảm nhận",
+    "example": {
+      "korean": "이 의자는 오래 앉아 있기에 불편해요.",
+      "vietnamese": "Chiếc ghế này ngồi lâu thì khá bất tiện/khó chịu."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "不便하다 [bất tiện]",
+    "antonyms": [
+      "편리하다"
+    ]
+  },
+  {
+    "id": "w-47",
+    "korean": "선물",
+    "vietnamese": "Quà tặng, món quà",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[seon-mul]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Quan hệ & Giao tiếp",
+    "example": {
+      "korean": "생일 축하 선물로 책을 주었어요.",
+      "vietnamese": "Tôi đã tặng sách làm quà sinh nhật."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "膳物 [thiện vật]"
+  },
+  {
+    "id": "w-48",
+    "korean": "연락하다",
+    "vietnamese": "Liên lạc, gọi điện/nhắn tin",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[yeol-la-ka-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Quan hệ & Giao tiếp",
+    "example": {
+      "korean": "한국에 도착하면 바로 연락해 주세요.",
+      "vietnamese": "Đến Hàn Quốc hãy liên lạc với tôi ngay nhé."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "連絡하다 [liên lạc]"
+  },
+  {
+    "id": "w-49",
+    "korean": "소개하다",
+    "vietnamese": "Giới thiệu",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[so-gae-ha-da]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Quan hệ & Giao tiếp",
+    "example": {
+      "korean": "제 친한 친구를 소개해 드릴게요.",
+      "vietnamese": "Tôi xin giới thiệu người bạn thân của tôi với bạn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "紹介하다 [thiệu giới]"
+  },
+  {
+    "id": "w-50",
+    "korean": "날씨",
+    "vietnamese": "Thời tiết",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[nal-ssi]",
+    "level": "TOPIK 2",
+    "topikLevel": 2,
+    "topic": "Tự nhiên & Khí hậu",
+    "example": {
+      "korean": "주말 날씨가 맑고 따뜻할 거예요.",
+      "vietnamese": "Thời tiết cuối tuần sẽ trong xanh và ấm áp."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-51",
+    "korean": "경험",
+    "vietnamese": "Kinh nghiệm, trải nghiệm",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[gyeong-heom]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Đời sống & Phát triển",
+    "example": {
+      "korean": "해외 봉사활동은 소중한 경험이 되었어요.",
+      "vietnamese": "Hoạt động tình nguyện nước ngoài đã trở thành trải nghiệm quý báu."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "經驗 [kinh nghiệm]"
+  },
+  {
+    "id": "w-52",
+    "korean": "성공하다",
+    "vietnamese": "Thành công",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[seong-gong-ha-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Công sở & Mục tiêu",
+    "example": {
+      "korean": "열심히 노력하면 반드시 성공할 수 있어요.",
+      "vietnamese": "Nếu nỗ lực chăm chỉ, bạn nhất định sẽ thành công."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "成功하다 [thành công]",
+    "antonyms": [
+      "실패하다"
+    ]
+  },
+  {
+    "id": "w-53",
+    "korean": "실패하다",
+    "vietnamese": "Thất bại",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[sil-pae-ha-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Công sở & Mục tiêu",
+    "example": {
+      "korean": "실패를 두려워하지 말고 계속 도전하세요.",
+      "vietnamese": "Đừng sợ thất bại mà hãy tiếp tục thử thách."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "失敗하다 [thất bại]",
+    "antonyms": [
+      "성공하다"
+    ]
+  },
+  {
+    "id": "w-54",
+    "korean": "회의",
+    "vietnamese": "Cuộc họp, phiên họp",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[hoe-ui]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Công sở & Làm việc",
+    "example": {
+      "korean": "오후 3시에 기획팀 회의가 있습니다.",
+      "vietnamese": "Có cuộc họp của nhóm kế hoạch vào lúc 3 giờ chiều."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "會議 [hội nghị]"
+  },
+  {
+    "id": "w-55",
+    "korean": "보고서",
+    "vietnamese": "Bản báo cáo, báo cáo công việc",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[bo-go-seo]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Công sở & Làm việc",
+    "example": {
+      "korean": "내일까지 이번 달 실적 보고서를 제출해야 해요.",
+      "vietnamese": "Phải nộp báo cáo kết quả tháng này trước ngày mai."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "報告書 [báo cáo thư]"
+  },
+  {
+    "id": "w-56",
+    "korean": "면접",
+    "vietnamese": "Phỏng vấn (xin việc, học bổng)",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[myeon-jeop]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Công sở & Nghề nghiệp",
+    "example": {
+      "korean": "내일 대기업 입사 면접이 있어서 떨려요.",
+      "vietnamese": "Ngày mai tôi có buổi phỏng vấn vào tập đoàn lớn nên rất hồi hộp."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "面接 [diện tiếp]"
+  },
+  {
+    "id": "w-57",
+    "korean": "합격하다",
+    "vietnamese": "Đỗ, thi đậu, trúng tuyển",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[hap-gyeo-ka-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Học tập & Thi cử",
+    "example": {
+      "korean": "TOPIK 5급에 합격해서 정말 기뻐요.",
+      "vietnamese": "Tôi vui sướng tột cùng vì đã đỗ TOPIK cấp 5."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "合格하다 [hợp cách]",
+    "antonyms": [
+      "불합격하다"
+    ]
+  },
+  {
+    "id": "w-58",
+    "korean": "신청하다",
+    "vietnamese": "Đăng ký, xin (visa, môn học)",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[sin-cheong-ha-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Học tập & Thủ tục",
+    "example": {
+      "korean": "수강 신청 기간을 꼭 확인하세요.",
+      "vietnamese": "Hãy nhớ kiểm tra kỹ thời hạn đăng ký tín chỉ môn học nhé."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "申請하다 [thân thỉnh]"
+  },
+  {
+    "id": "w-59",
+    "korean": "취소하다",
+    "vietnamese": "Hủy bỏ, hủy lịch",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[chwi-so-ha-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Đời sống & Công việc",
+    "example": {
+      "korean": "급한 일이 생겨서 약속을 취소했어요.",
+      "vietnamese": "Vì có việc gấp phát sinh nên tôi đã phải hủy cuộc hẹn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "取消하다 [thủ tiêu]"
+  },
+  {
+    "id": "w-60",
+    "korean": "선택하다",
+    "vietnamese": "Lựa chọn, tuyển chọn",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[seon-tae-ka-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Quyết định & Tư duy",
+    "example": {
+      "korean": "자신의 진로를 스스로 선택해야 합니다.",
+      "vietnamese": "Mỗi người cần phải tự mình lựa chọn con đường tương lai."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "選擇하다 [tuyển trạch]",
+    "synonyms": [
+      "고르다"
+    ]
+  },
+  {
+    "id": "w-61",
+    "korean": "중요하다",
+    "vietnamese": "Quan trọng, cốt yếu",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[jung-yo-ha-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Tính chất & Giá trị",
+    "example": {
+      "korean": "건강을 지키는 것이 무엇보다 중요해요.",
+      "vietnamese": "Việc giữ gìn sức khỏe quan trọng hơn bất cứ điều gì."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "重要하다 [trọng yếu]"
+  },
+  {
+    "id": "w-62",
+    "korean": "필요하다",
+    "vietnamese": "Cần thiết, cần có",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[pil-ryo-ha-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Tính chất & Giá trị",
+    "example": {
+      "korean": "외국어 공부에는 꾸준한 연습이 필요합니다.",
+      "vietnamese": "Học ngoại ngữ rất cần sự luyện tập kiên trì đều đặn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "必要하다 [tất yếu]"
+  },
+  {
+    "id": "w-63",
+    "korean": "문제",
+    "vietnamese": "Vấn đề, câu hỏi bài tập",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[mun-je]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Tư duy & Thảo luận",
+    "example": {
+      "korean": "이 문제를 어떻게 해결하면 좋을까요?",
+      "vietnamese": "Chúng ta nên giải quyết vấn đề này như thế nào thì tốt?"
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "問題 [vấn đề]"
+  },
+  {
+    "id": "w-64",
+    "korean": "해결하다",
+    "vietnamese": "Giải quyết, tháo gỡ",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[hae-gyeol-ha-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Tư duy & Thảo luận",
+    "example": {
+      "korean": "서로 대화로 갈등을 원만히 해결했습니다.",
+      "vietnamese": "Chúng tôi đã giải quyết êm đẹp mâu thuẫn bằng sự đối thoại."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "解決하다 [giải quyết]"
+  },
+  {
+    "id": "w-65",
+    "korean": "관심",
+    "vietnamese": "Sự quan tâm, hứng thú",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[gwan-sim]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Cảm xúc & Sở thích",
+    "example": {
+      "korean": "저는 한국 문화와 역사에 관심이 많습니다.",
+      "vietnamese": "Tôi rất quan tâm và yêu thích văn hóa, lịch sử Hàn Quốc."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "關心 [quan tâm]"
+  },
+  {
+    "id": "w-66",
+    "korean": "부탁하다",
+    "vietnamese": "Nhờ vả, gửi gắm",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[bu-ta-ka-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Giao tiếp xã hội",
+    "example": {
+      "korean": "동료에게 서류 검토를 정중히 부탁했어요.",
+      "vietnamese": "Tôi đã lịch sự nhờ đồng nghiệp duyệt tài liệu giúp."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "付託하다 [phó thác]"
+  },
+  {
+    "id": "w-67",
+    "korean": "익숙하다",
+    "vietnamese": "Quen thuộc, thành thạo",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[ik-su-ka-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Kỹ năng & Thích nghi",
+    "example": {
+      "korean": "이제 한국 생활에 많이 익숙해졌어요.",
+      "vietnamese": "Bây giờ tôi đã thích nghi quen thuộc với cuộc sống ở Hàn rất nhiều."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "낯설다"
+    ]
+  },
+  {
+    "id": "w-68",
+    "korean": "낯설다",
+    "vietnamese": "Xa lạ, bỡ ngỡ",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[nat-seol-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Kỹ năng & Thích nghi",
+    "example": {
+      "korean": "처음 외국에 갔을 때는 모든 것이 낯설었어요.",
+      "vietnamese": "Lần đầu đi ra nước ngoài, mọi thứ đều thật bỡ ngỡ xa lạ."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "antonyms": [
+      "익숙하다"
+    ]
+  },
+  {
+    "id": "w-69",
+    "korean": "기대하다",
+    "vietnamese": "Kỳ vọng, mong đợi",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[gi-dae-ha-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Tâm lý & Cảm xúc",
+    "example": {
+      "korean": "다음 주에 개봉하는 영화를 무척 기대하고 있어요.",
+      "vietnamese": "Tôi rất mong đợi bộ phim sẽ ra rạp vào tuần tới."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "期待하다 [kỳ đãi]"
+  },
+  {
+    "id": "w-70",
+    "korean": "노력하다",
+    "vietnamese": "Nỗ lực, cố gắng hết mình",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[no-ryeo-ka-da]",
+    "level": "TOPIK 3",
+    "topikLevel": 3,
+    "topic": "Đời sống & Phát triển",
+    "example": {
+      "korean": "꿈을 이루기 위해 매일 최선을 다해 노력해요.",
+      "vietnamese": "Để thực hiện ước mơ, tôi nỗ lực hết mình mỗi ngày."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "努力하다 [nỗ lực]"
+  },
+  {
+    "id": "w-71",
+    "korean": "영향",
+    "vietnamese": "Ảnh hưởng, tác động",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[yeong-hyang]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Xã hội & Xu hướng",
+    "example": {
+      "korean": "스마트폰은 현대인의 생활에 큰 영향을 미친다.",
+      "vietnamese": "Điện thoại thông minh tác động rất lớn đến đời sống người hiện đại."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "影響 [ảnh hưởng]"
+  },
+  {
+    "id": "w-72",
+    "korean": "원인",
+    "vietnamese": "Nguyên nhân, căn nguyên",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[wo-nin]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Phân tích & Lý luận",
+    "example": {
+      "korean": "전문가들이 사고의 정확한 원인을 조사하고 있다.",
+      "vietnamese": "Các chuyên gia đang điều tra nguyên nhân chính xác của vụ tai nạn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "原因 [nguyên nhân]",
+    "antonyms": [
+      "결과"
+    ]
+  },
+  {
+    "id": "w-73",
+    "korean": "결과",
+    "vietnamese": "Kết quả, thành quả",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[gyeol-gwa]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Phân tích & Lý luận",
+    "example": {
+      "korean": "꾸준히 노력한 결과 좋은 성적을 얻었다.",
+      "vietnamese": "Nhờ nỗ lực bền bỉ, tôi đã đạt được kết quả tốt đẹp."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "結果 [kết quả]",
+    "antonyms": [
+      "원인"
+    ]
+  },
+  {
+    "id": "w-74",
+    "korean": "발전하다",
+    "vietnamese": "Phát triển, tiến bộ",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[bal-jjeon-ha-da]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Khoa học & Xã hội",
+    "example": {
+      "korean": "인공지능 기술이 눈부시게 발전하고 있습니다.",
+      "vietnamese": "Công nghệ trí tuệ nhân tạo đang phát triển vượt bậc."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "發展하다 [phát triển]"
+  },
+  {
+    "id": "w-75",
+    "korean": "환경보호",
+    "vietnamese": "Bảo vệ môi trường",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[hwan-gyeong-bo-ho]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Môi trường & Trái đất",
+    "example": {
+      "korean": "환경보호를 위해 일회용품 사용을 줄여야 합니다.",
+      "vietnamese": "Để bảo vệ môi trường, cần giảm thiểu sử dụng đồ dùng một lần."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "環境保護 [hoàn cảnh bảo hộ]"
+  },
+  {
+    "id": "w-76",
+    "korean": "자연재해",
+    "vietnamese": "Thiên tai, thảm họa tự nhiên",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[ja-yeon-jae-hae]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Môi trường & Trái đất",
+    "example": {
+      "korean": "기후 변화로 인해 세계 곳곳에서 자연재해가 발생한다.",
+      "vietnamese": "Do biến đổi khí hậu, thiên tai xảy ra ở nhiều nơi trên thế giới."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "自然災害 [tự nhiên tai hại]"
+  },
+  {
+    "id": "w-77",
+    "korean": "제공하다",
+    "vietnamese": "Cung cấp, đem lại",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[je-gong-ha-da]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Kinh tế & Dịch vụ",
+    "example": {
+      "korean": "이 앱은 유용한 학습 자료를 무료로 제공합니다.",
+      "vietnamese": "Ứng dụng này cung cấp tài liệu học tập hữu ích hoàn toàn miễn phí."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "提供하다 [đề cung]"
+  },
+  {
+    "id": "w-78",
+    "korean": "참여하다",
+    "vietnamese": "Tham gia, góp mặt",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[cham-yeo-ha-da]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Cộng đồng & Xã hội",
+    "example": {
+      "korean": "많은 시민들이 자원봉사 활동에 적극적으로 참여했다.",
+      "vietnamese": "Rất nhiều người dân đã tích cực tham gia vào hoạt động tình nguyện."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "參與하다 [tham dự]",
+    "synonyms": [
+      "참가하다"
+    ]
+  },
+  {
+    "id": "w-79",
+    "korean": "증가하다",
+    "vietnamese": "Gia tăng, tăng lên",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[jeung-ga-ha-da]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Kinh tế & Số liệu",
+    "example": {
+      "korean": "한국을 방문하는 외국인 관광객 수가 크게 증가했다.",
+      "vietnamese": "Số lượng khách du lịch nước ngoài đến Hàn Quốc đã tăng mạnh."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "增加하다 [tăng gia]",
+    "antonyms": [
+      "감소하다"
+    ]
+  },
+  {
+    "id": "w-80",
+    "korean": "감소하다",
+    "vietnamese": "Giảm sút, sụt giảm",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[gam-so-ha-da]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Kinh tế & Số liệu",
+    "example": {
+      "korean": "출산율이 떨어지면서 학령인구가 감소하고 있다.",
+      "vietnamese": "Tỷ lệ sinh giảm khiến dân số trong độ tuổi đi học sụt giảm."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "減少하다 [giảm thiểu]",
+    "antonyms": [
+      "증가하다"
+    ]
+  },
+  {
+    "id": "w-81",
+    "korean": "주장하다",
+    "vietnamese": "Chủ trương, khẳng định, nêu quan điểm",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[ju-jang-ha-da]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Biện luận & Luận điểm",
+    "example": {
+      "korean": "그는 자신의 무죄를 끝까지 강력하게 주장했다.",
+      "vietnamese": "Anh ấy kiên quyết khẳng định mình vô tội đến cùng."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "主張하다 [chủ trương]"
+  },
+  {
+    "id": "w-82",
+    "korean": "설득하다",
+    "vietnamese": "Thuyết phục",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[seol-ddeu-ka-da]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Giao tiếp & Đàm phán",
+    "example": {
+      "korean": "상대방의 의견을 존중하면서 차분하게 설득하세요.",
+      "vietnamese": "Hãy tôn trọng ý kiến đối phương và bình tĩnh thuyết phục họ."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "說得하다 [thuyết đắc]"
+  },
+  {
+    "id": "w-83",
+    "korean": "차이점",
+    "vietnamese": "Điểm khác biệt",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[cha-i-jjeom]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "So sánh & Phân tích",
+    "example": {
+      "korean": "동양 문화와 서양 문화의 차이점을 비교해 보세요.",
+      "vietnamese": "Hãy so sánh những điểm khác biệt giữa văn hóa phương Đông và phương Tây."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "差異點 [sai dị điểm]",
+    "antonyms": [
+      "공통점"
+    ]
+  },
+  {
+    "id": "w-84",
+    "korean": "공통점",
+    "vietnamese": "Điểm tương đồng, điểm chung",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[gong-tong-jjeom]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "So sánh & Phân tích",
+    "example": {
+      "korean": "두 언어 사이에는 놀라울 정도로 많은 공통점이 있다.",
+      "vietnamese": "Giữa hai ngôn ngữ có rất nhiều nét tương đồng đáng ngạc nhiên."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "共通點 [cộng thông điểm]",
+    "antonyms": [
+      "차이점"
+    ]
+  },
+  {
+    "id": "w-85",
+    "korean": "태도",
+    "vietnamese": "Thái độ, tác phong",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[tae-do]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Nhân cách & Tâm lý",
+    "example": {
+      "korean": "어려운 상황에서도 긍정적인 태도를 잃지 마세요.",
+      "vietnamese": "Dù trong hoàn cảnh khó khăn cũng đừng đánh mất thái độ tích cực."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "態度 [thái độ]"
+  },
+  {
+    "id": "w-86",
+    "korean": "인식",
+    "vietnamese": "Nhận thức, ý thức",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[in-sik]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Xã hội & Tư tưởng",
+    "example": {
+      "korean": "장애인에 대한 사회적 인식을 개선해야 합니다.",
+      "vietnamese": "Cần phải cải thiện nhận thức của xã hội đối với người khuyết tật."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "認識 [nhận thức]"
+  },
+  {
+    "id": "w-87",
+    "korean": "제도",
+    "vietnamese": "Chế độ, thể chế, chính sách",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[je-do]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Chính sách & Pháp luật",
+    "example": {
+      "korean": "복지 제도를 정비하여 취약계층을 지원해야 한다.",
+      "vietnamese": "Cần hoàn thiện chế độ phúc lợi để hỗ trợ các đối tượng yếu thế."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "制度 [chế độ]"
+  },
+  {
+    "id": "w-88",
+    "korean": "조사하다",
+    "vietnamese": "Điều tra, khảo sát",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[jo-sa-ha-da]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Nghiên cứu & Thống kê",
+    "example": {
+      "korean": "소비자 만족도를 파악하기 위해 설문조사를 실시했다.",
+      "vietnamese": "Chúng tôi đã tiến hành khảo sát để nắm bắt mức độ hài lòng của người tiêu dùng."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "調査하다 [điều tra]"
+  },
+  {
+    "id": "w-89",
+    "korean": "소비자",
+    "vietnamese": "Người tiêu dùng, khách hàng",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[so-bi-ja]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Kinh tế & Thị trường",
+    "example": {
+      "korean": "기업은 소비자의 다양한 요구를 신속히 반영해야 한다.",
+      "vietnamese": "Doanh nghiệp cần nhanh chóng phản hồi các nhu cầu đa dạng của người tiêu dùng."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "消費者 [tiêu phí giả]"
+  },
+  {
+    "id": "w-90",
+    "korean": "경쟁력",
+    "vietnamese": "Năng lực cạnh tranh",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[gyeong-jaeng-nyeok]",
+    "level": "TOPIK 4",
+    "topikLevel": 4,
+    "topic": "Kinh tế & Doanh nghiệp",
+    "example": {
+      "korean": "글로벌 시장에서 살아남기 위해서는 기술 경쟁력이 필수다.",
+      "vietnamese": "Để tồn tại trên thị trường toàn cầu, năng lực cạnh tranh công nghệ là tất yếu."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "競爭力 [cạnh tranh lực]"
+  },
+  {
+    "id": "w-91",
+    "korean": "다양성",
+    "vietnamese": "Tính đa dạng, sự phong phú",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[da-yang-seong]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Học thuật & Xã hội",
+    "example": {
+      "korean": "문화적 다양성을 존중하는 열린 사회를 구축해야 한다.",
+      "vietnamese": "Cần xây dựng một xã hội cởi mở tôn trọng tính đa dạng văn hóa."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "多樣性 [đa dạng tính]"
+  },
+  {
+    "id": "w-92",
+    "korean": "지속가능성",
+    "vietnamese": "Tính bền vững",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[ji-sok-ga-neung-seong]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Môi trường & Kinh tế",
+    "example": {
+      "korean": "기업 경영에서 환경 보호와 지속가능성은 핵심 화두다.",
+      "vietnamese": "Trong quản trị doanh nghiệp, bảo vệ môi trường và tính bền vững là chủ đề cốt lõi."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "持續可能性 [trì tục khả năng tính]"
+  },
+  {
+    "id": "w-93",
+    "korean": "양극화",
+    "vietnamese": "Hiện tượng phân cực hóa (giàu - nghèo)",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[yang-geu-kwa]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Kinh tế & Xã hội",
+    "example": {
+      "korean": "소득 양극화 문제를 해결하기 위한 정책적 개입이 시급하다.",
+      "vietnamese": "Sự can thiệp chính sách để giải quyết bài toán phân cực giàu nghèo là vô cùng cấp bách."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "兩極化 [lưỡng cực hóa]"
+  },
+  {
+    "id": "w-94",
+    "korean": "기여하다",
+    "vietnamese": "Đóng góp, cống hiến",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[gi-yeo-ha-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Phát triển & Cống hiến",
+    "example": {
+      "korean": "과학기술의 발전은 인류의 번영에 크게 기여하였다.",
+      "vietnamese": "Sự phát triển của khoa học công nghệ đã đóng góp to lớn vào sự phồn vinh của nhân loại."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "寄與하다 [ký dữ]",
+    "synonyms": [
+      "이바지하다"
+    ]
+  },
+  {
+    "id": "w-95",
+    "korean": "불가피하다",
+    "vietnamese": "Không thể tránh khỏi, bất khả kháng",
+    "partOfSpeech": "Tính từ",
+    "pronunciation": "[bul-ga-pi-ha-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Luận cứ & Đánh giá",
+    "example": {
+      "korean": "구조조정 과정에서 인력 감축은 불가피한 선택이었다.",
+      "vietnamese": "Trong quá trình tái cơ cấu, việc cắt giảm nhân sự là lựa chọn không thể tránh khỏi."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "不可避하다 [bất khả tị]"
+  },
+  {
+    "id": "w-96",
+    "korean": "타당성",
+    "vietnamese": "Tính thỏa đáng, tính hợp lý khoa học",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[ta-dang-seong]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Nghiên cứu & Luận văn",
+    "example": {
+      "korean": "연구 결과의 객관적 타당성을 검증하기 위해 추가 실험을 진행했다.",
+      "vietnamese": "Chúng tôi tiến hành thí nghiệm bổ sung để kiểm chứng tính thỏa đáng khách quan của kết quả nghiên cứu."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "妥當性 [thỏa đương tính]"
+  },
+  {
+    "id": "w-97",
+    "korean": "모순",
+    "vietnamese": "Mâu thuẫn",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[mo-sun]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Tư duy & Biện chứng",
+    "example": {
+      "korean": "그의 이론은 전제와 결론 사이에 명백한 모순이 존재한다.",
+      "vietnamese": "Lý thuyết của ông ấy tồn tại mâu thuẫn rõ rệt giữa tiền đề và kết luận."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "矛盾 [mâu thuẫn]"
+  },
+  {
+    "id": "w-98",
+    "korean": "유발하다",
+    "vietnamese": "Dẫn đến, làm phát sinh, gây ra",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[yu-bal-ha-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Cơ chế & Tác động",
+    "example": {
+      "korean": "만성 스트레스는 각종 성인병을 유발하는 주요 요인이다.",
+      "vietnamese": "Căng thẳng mãn tính là nguyên nhân chủ yếu dẫn đến các bệnh lý người lớn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "誘發하다 [dụ phát]"
+  },
+  {
+    "id": "w-99",
+    "korean": "구축하다",
+    "vietnamese": "Xây dựng, thiết lập (hệ thống, nền tảng)",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[gu-chu-ka-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Công nghệ & Quản trị",
+    "example": {
+      "korean": "빅데이터를 기반으로 스마트 물류 인프라를 신속히 구축했다.",
+      "vietnamese": "Đã nhanh chóng xây dựng cơ sở hạ tầng hậu cần thông minh dựa trên dữ liệu lớn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "構築하다 [cấu trúc]"
+  },
+  {
+    "id": "w-100",
+    "korean": "전망하다",
+    "vietnamese": "Dự báo, triển vọng tương lai",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[jeon-mang-ha-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Kinh tế & Xu hướng",
+    "example": {
+      "korean": "전문가들은 내년 세계 경제 성장률이 둔화될 것으로 전망한다.",
+      "vietnamese": "Các chuyên gia dự báo tốc độ tăng trưởng kinh tế toàn cầu năm tới sẽ chững lại."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "展望하다 [triển vọng]"
+  },
+  {
+    "id": "w-101",
+    "korean": "간과하다",
+    "vietnamese": "Xem nhẹ, bỏ qua, lơ là",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[gan-gwa-ha-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Phê bình & Tư duy",
+    "example": {
+      "korean": "사소해 보이는 세부 사항이라도 결코 간과해서는 안 된다.",
+      "vietnamese": "Dù là chi tiết nhỏ nhặt có vẻ tầm thường cũng tuyệt đối không được xem nhẹ bỏ qua."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "看過하다 [khán quá]"
+  },
+  {
+    "id": "w-102",
+    "korean": "침체되다",
+    "vietnamese": "Bị đình trệ, suy thoái",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[chim-che-doe-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Kinh tế & Xã hội",
+    "example": {
+      "korean": "장기 경기 침체로 인해 자영업자들의 시름이 깊어지고 있다.",
+      "vietnamese": "Do suy thoái kinh tế kéo dài, nỗi lo âu của các hộ kinh doanh tự do ngày càng chồng chất."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "沈滯되다 [trầm trệ]"
+  },
+  {
+    "id": "w-103",
+    "korean": "도모하다",
+    "vietnamese": "Mưu cầu, thúc đẩy đạt được",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[do-mo-ha-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Chính sách & Mục tiêu",
+    "example": {
+      "korean": "국가 간 교류를 활성화하여 상호 공동 번영을 도모해야 한다.",
+      "vietnamese": "Cần đẩy mạnh giao lưu giữa các quốc gia để cùng nhau mưu cầu sự phồn vinh chung."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "圖謀하다 [đồ mưu]"
+  },
+  {
+    "id": "w-104",
+    "korean": "수반하다",
+    "vietnamese": "Kèm theo, kéo theo",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[su-ban-ha-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Quy luật & Tác động",
+    "example": {
+      "korean": "급격한 사회 변혁은 필연적으로 혼란과 갈등을 수반한다.",
+      "vietnamese": "Biến động xã hội đột ngột tất yếu sẽ kéo theo sự hỗn loạn và mâu thuẫn."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "隨伴하다 [tùy bạn]"
+  },
+  {
+    "id": "w-105",
+    "korean": "고령화",
+    "vietnamese": "Già hóa dân số",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[go-ryeong-hwa]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Dân số & Xã hội",
+    "example": {
+      "korean": "한국은 세계에서 가장 빠른 속도로 초고령화 사회에 진입했다.",
+      "vietnamese": "Hàn Quốc đã bước vào xã hội siêu già hóa với tốc độ nhanh nhất thế giới."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "高齡化 [cao linh hóa]"
+  },
+  {
+    "id": "w-106",
+    "korean": "창의성",
+    "vietnamese": "Tính sáng tạo",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[chang-ui-seong]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Tư duy & Đổi mới",
+    "example": {
+      "korean": "미래 인재에게 가장 요구되는 핵심 역량은 비판적 사고와 창의성이다.",
+      "vietnamese": "Năng lực cốt lõi được đòi hỏi nhất ở nhân tài tương lai là tư duy phản biện và tính sáng tạo."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "創意性 [sáng ý tính]"
+  },
+  {
+    "id": "w-107",
+    "korean": "상관관계",
+    "vietnamese": "Mối quan hệ tương quan",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[sang-gwan-gwan-gye]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Thống kê & Học thuật",
+    "example": {
+      "korean": "학업 성취도와 독서량 사이에는 밀접한 상관관계가 입증되었다.",
+      "vietnamese": "Đã chứng minh được mối tương quan mật thiết giữa thành tích học tập và lượng sách đọc."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "相關關係 [tương quan quan hệ]"
+  },
+  {
+    "id": "w-108",
+    "korean": "배제하다",
+    "vietnamese": "Loại trừ, bài xích",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[bae-je-ha-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Biện luận & Pháp lý",
+    "example": {
+      "korean": "편견과 선입견을 철저히 배제하고 객관적인 증거만을 토대로 판단하라.",
+      "vietnamese": "Hãy loại trừ hoàn toàn định kiến và thiên vị, chỉ phán đoán dựa trên chứng cứ khách quan."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "排除하다 [bài trừ]"
+  },
+  {
+    "id": "w-109",
+    "korean": "자율성",
+    "vietnamese": "Tính tự chủ, quyền tự quyết",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[ja-yul-seong]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Quản trị & Tâm lý",
+    "example": {
+      "korean": "직원들에게 업무 자율성을 부여할 때 업무 몰입도가 극대화된다.",
+      "vietnamese": "Khi trao quyền tự chủ trong công việc cho nhân viên, mức độ tập trung sẽ được tối đa hóa."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "自律性 [tự luật tính]"
+  },
+  {
+    "id": "w-110",
+    "korean": "근절하다",
+    "vietnamese": "Diệt tận gốc, bài trừ triệt để",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[geun-jeol-ha-da]",
+    "level": "TOPIK 5",
+    "topikLevel": 5,
+    "topic": "Pháp luật & Xã hội",
+    "example": {
+      "korean": "학교 폭력을 근절하기 위해 학교와 지역사회가 함께 나서야 한다.",
+      "vietnamese": "Để bài trừ triệt để bạo lực học đường, nhà trường và cộng đồng cần cùng chung tay."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "根絕하다 [căn tuyệt]"
+  },
+  {
+    "id": "w-111",
+    "korean": "일석이조",
+    "vietnamese": "Một mũi tên trúng hai đích (nhất cử lưỡng tiện)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[il-sseo-gi-jo]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Thành ngữ Tứ tự (사자성어)",
+    "example": {
+      "korean": "한국어를 배우며 친구도 사귀었으니 그야말로 일석이조다.",
+      "vietnamese": "Vừa học tiếng Hàn vừa kết bạn, đúng là một công đôi việc."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "一石二鳥 [nhất thạch nhị điểu]",
+    "synonyms": [
+      "일거양득 (一擧兩得)"
+    ]
+  },
+  {
+    "id": "w-112",
+    "korean": "고진감래",
+    "vietnamese": "Khổ tận cam lai (hết khổ đến sướng, qua cơn bĩ cực đến hồi thái lai)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[go-jin-gam-rae]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Thành ngữ Tứ tự (사자성어)",
+    "example": {
+      "korean": "힘든 수험 생활을 견뎌내고 명문대에 합격했으니 고진감래라 하겠다.",
+      "vietnamese": "Vượt qua những ngày tháng ôn thi gian khổ để đỗ đại học danh tiếng, đúng là khổ tận cam lai."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "苦盡甘來 [khổ tận cam lai]"
+  },
+  {
+    "id": "w-113",
+    "korean": "역지사지",
+    "vietnamese": "Đặt mình vào vị trí của người khác để suy nghĩ (dịch địa tư chi)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[yeok-ji-sa-ji]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Thành ngữ Tứ tự (사자성어)",
+    "example": {
+      "korean": "갈등을 빚을 때는 역지사지의 자세로 상대의 처지를 헤아려야 한다.",
+      "vietnamese": "Khi xảy ra mâu thuẫn, cần có thái độ đặt mình vào vị trí của người khác để thấu hiểu."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "易地思之 [dịch địa tư chi]"
+  },
+  {
+    "id": "w-114",
+    "korean": "작심삼일",
+    "vietnamese": "Nhiệt huyết ba ngày (chỉ kiên trì được 3 ngày rồi bỏ cuộc)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[jak-ssim-sam-il]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Thành ngữ Tứ tự (사자성어)",
+    "example": {
+      "korean": "새해 결심이 작심삼일로 끝나지 않도록 철저한 계획을 세웠다.",
+      "vietnamese": "Tôi đã lập kế hoạch kỹ lưỡng để quyết tâm đầu năm không bị dở dang sau ba ngày."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "作心三日 [tác tâm tam nhật]"
+  },
+  {
+    "id": "w-115",
+    "korean": "전화위복",
+    "vietnamese": "Chuyển họa thành phúc (trong cái rủi có cái may)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[jeon-hwa-wi-bok]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Thành ngữ Tứ tự (사자성어)",
+    "example": {
+      "korean": "위기를 기회로 바꾸어 전화위복의 계기로 삼았습니다.",
+      "vietnamese": "Biến khủng hoảng thành cơ hội để làm đòn bẩy chuyển họa thành phúc."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "轉禍爲福 [chuyển họa vi phúc]"
+  },
+  {
+    "id": "w-116",
+    "korean": "과유불급",
+    "vietnamese": "Thái quá bất cập (cái gì quá mức cũng dở như không đủ)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[gwa-yu-bul-geup]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Thành ngữ Tứ tự (사자성어)",
+    "example": {
+      "korean": "건강식품도 지나치게 섭취하면 오히려 해가 되니 과유불급이다.",
+      "vietnamese": "Thực phẩm chức năng nếu uống quá liều cũng phản tác dụng, đúng là thái quá bất cập."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "過猶不及 [quá do bất cập]"
+  },
+  {
+    "id": "w-117",
+    "korean": "동병상련",
+    "vietnamese": "Đồng bệnh tương lân (những người cùng cảnh ngộ dễ thấu cảm cho nhau)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[dong-byeong-sang-nyeon]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Thành ngữ Tứ tự (사자성어)",
+    "example": {
+      "korean": "타국에서 고생하는 유학생들끼리 동병상련의 정을 느꼈다.",
+      "vietnamese": "Những du học sinh vất vả nơi đất khách quê người đồng cảm sâu sắc với nhau vì cùng cảnh ngộ."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "同病相憐 [đồng bệnh tương lân]"
+  },
+  {
+    "id": "w-118",
+    "korean": "발 벗고 나서다",
+    "vietnamese": "Nhiệt tình xắn tay áo vào giúp (quán dụng ngữ)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[bal beot-go na-seo-da]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Quán dụng ngữ (관용구)",
+    "example": {
+      "korean": "이웃의 안타까운 소식을 듣고 온 동네 사람들이 발 벗고 나섰다.",
+      "vietnamese": "Nghe tin buồn của người hàng xóm, cả khu phố đã nhiệt tình xắn tay áo vào giúp đỡ."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-119",
+    "korean": "귀를 기울이다",
+    "vietnamese": "Lắng tai nghe, chăm chú lắng nghe tâm tư (quán dụng ngữ)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[gwi-reul gi-u-ri-da]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Quán dụng ngữ (관용구)",
+    "example": {
+      "korean": "지도자는 국민의 작은 목소리에도 겸허히 귀를 기울여야 한다.",
+      "vietnamese": "Người lãnh đạo cần phải khiêm tốn lắng nghe cả những tâm tư nguyện vọng nhỏ nhất của nhân dân."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-120",
+    "korean": "손을 떼다",
+    "vietnamese": "Rút tay ra, ngừng can thiệp (quán dụng ngữ)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[so-neul tte-da]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Quán dụng ngữ (관용구)",
+    "example": {
+      "korean": "수익성이 악화되자 경영진은 그 사업에서 손을 떼기로 결정했다.",
+      "vietnamese": "Khi lợi nhuận sụt giảm, ban giám đốc đã quyết định rút lui hoàn toàn khỏi dự án kinh doanh đó."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-121",
+    "korean": "눈길을 끌다",
+    "vietnamese": "Thu hút ánh nhìn, thu hút sự chú ý (quán dụng ngữ)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[nun-gi-reul kkeul-da]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Quán dụng ngữ (관용구)",
+    "example": {
+      "korean": "독창적인 디자인을 선보인 한국 신진 디자이너의 작품이 전 세계의 눈길을 끌었다.",
+      "vietnamese": "Tác phẩm với thiết kế độc đáo của nhà thiết kế trẻ Hàn Quốc đã thu hút sự chú ý của toàn thế giới."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-122",
+    "korean": "천명하다",
+    "vietnamese": "Tuyên bố rành mạch trước bàn dân thiên hạ",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[cheon-myeong-ha-da]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Chính trị & Ngoại giao",
+    "example": {
+      "korean": "정부는 영토 주권을 수호하겠다는 단호한 의지를 대내외에 천명했다.",
+      "vietnamese": "Chính phủ tuyên bố rành mạch trước quốc dân và thế giới ý chí đanh thép bảo vệ chủ quyền lãnh thổ."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "闡明하다 [xiển minh]"
+  },
+  {
+    "id": "w-123",
+    "korean": "상정하다",
+    "vietnamese": "Đưa ra làm giả thuyết / Đệ trình nghị trình thảo luận",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[sang-jeong-ha-da]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Học thuật & Pháp lý",
+    "example": {
+      "korean": "최악의 안보 위기 시나리오를 상정하여 비상 대책 훈련을 실시했다.",
+      "vietnamese": "Đã đặt ra kịch bản khủng hoảng an ninh xấu nhất để tổ chức diễn tập biện pháp ứng phó khẩn cấp."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "想定하다 [tưởng định]"
+  },
+  {
+    "id": "w-124",
+    "korean": "통찰력",
+    "vietnamese": "Nhãn quan sâu sắc, khả năng nhìn thấu bản chất vấn đề",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[tong-chal-lyeok]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Triết học & Lãnh đạo",
+    "example": {
+      "korean": "역사적 흐름을 꿰뚫어 보는 탁월한 통찰력이 요구되는 시대다.",
+      "vietnamese": "Đây là thời đại đòi hỏi nhãn quan sâu sắc xuất chúng thấu suốt dòng chảy của lịch sử."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "洞察力 [đỗng sát lực]"
+  },
+  {
+    "id": "w-125",
+    "korean": "초월하다",
+    "vietnamese": "Vượt lên trên mọi giới hạn, siêu việt",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[cho-wol-ha-da]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Triết học & Tư tưởng",
+    "example": {
+      "korean": "음악은 국경과 인종을 초월하여 전 인류의 마음을 하나로 잇는다.",
+      "vietnamese": "Âm nhạc vượt qua mọi biên giới và sắc tộc để kết nối trái tim toàn thể nhân loại."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "超越하다 [siêu việt]"
+  },
+  {
+    "id": "w-126",
+    "korean": "궤변",
+    "vietnamese": "Ngụy biện, lý lẽ quanh co bóp méo chân lý",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[gwe-byeon]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Triết học & Tranh luận",
+    "example": {
+      "korean": "자신의 과오를 정당화하기 위해 늘어놓는 말은 구차한 궤변에 불과하다.",
+      "vietnamese": "Những lời biện minh để lấp liếm lỗi lầm của bản thân chẳng qua chỉ là ngụy biện vụng về."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "詭辯 [quỷ biện]"
+  },
+  {
+    "id": "w-127",
+    "korean": "묵과하다",
+    "vietnamese": "Nhắm mắt làm ngơ, dung túng không xử lý",
+    "partOfSpeech": "Động từ",
+    "pronunciation": "[muk-gwa-ha-da]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Pháp lý & Đạo đức",
+    "example": {
+      "korean": "인권을 심각하게 침해하는 행위를 더 이상 묵과할 수 없다.",
+      "vietnamese": "Tuyệt đối không thể tiếp tục nhắm mắt làm ngơ trước những hành vi xâm phạm nhân quyền nghiêm trọng."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "默過하다 [mặc quá]"
+  },
+  {
+    "id": "w-128",
+    "korean": "패러다임",
+    "vietnamese": "Hình mẫu tư duy, hệ hình tư tưởng (paradigm)",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[pae-reo-da-im]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Khoa học & Triết học",
+    "example": {
+      "korean": "디지털 대전환은 교육과 산업 전반의 패러다임을 근본적으로 바꾸었다.",
+      "vietnamese": "Cuộc chuyển đổi số lớn đã thay đổi căn bản hình mẫu tư duy trong toàn bộ giáo dục và công nghiệp."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0
+  },
+  {
+    "id": "w-129",
+    "korean": "희열",
+    "vietnamese": "Niềm hân hoan tột đỉnh, sung sướng ngập tràn",
+    "partOfSpeech": "Danh từ",
+    "pronunciation": "[hui-yeol]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Tâm lý học đỉnh cao",
+    "example": {
+      "korean": "오랜 연구 끝에 새로운 원리를 발견했을 때 학자가 느끼는 희열은 형언할 수 없다.",
+      "vietnamese": "Khi phát hiện ra nguyên lý mới sau nhiều năm nghiên cứu, niềm hân hoan của nhà khoa học không lời nào tả xiết."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "喜悅 [hỷ duyệt]"
+  },
+  {
+    "id": "w-130",
+    "korean": "일도양단",
+    "vietnamese": "Chặt đứt dứt khoát làm hai đoạn (hành động quyết đoán, dứt điểm)",
+    "partOfSpeech": "Thành ngữ",
+    "pronunciation": "[il-do-yang-dan]",
+    "level": "TOPIK 6",
+    "topikLevel": 6,
+    "topic": "Thành ngữ Tứ tự (사자성어)",
+    "example": {
+      "korean": "복잡하게 얽힌 부패의 사슬을 일도양단하는 과감한 개혁 조치가 단행되었다.",
+      "vietnamese": "Biện pháp cải cách quả cảm đã được ban hành để chặt đứt dứt khoát mắt xích tham nhũng phức tạp."
+    },
+    "masteryStatus": "unlearned",
+    "reviewCount": 0,
+    "hanja": "一刀兩斷 [nhất đao lưỡng đoạn]"
+  }
+]

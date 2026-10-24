@@ -14,9 +14,9 @@ export const Footer: React.FC = () => {
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-2xl overflow-hidden shadow-xs border border-teal-100 flex-shrink-0 bg-white p-0.5">
                 <img
-                  src="/korean_vocab_logo.jpg"
+                  src="/app-icon.png"
                   alt="KOREAN VOCAB Logo"
-                  className="w-full h-full object-cover rounded-xl"
+                  className="w-full h-full object-contain rounded-xl"
                   referrerPolicy="no-referrer"
                 />
               </div>

@@ -28,18 +28,24 @@ export const ThemedDecks: React.FC = () => {
   const [searchWordText, setSearchWordText] = useState('');
   const [playingWordId, setPlayingWordId] = useState<string | null>(null);
 
-  // Filter words by active topic
+  // Filter words by active topic or TOPIK level
   const filteredWords = words.filter((w) => {
-    const matchesTopic =
-      activeTopicFilter === 'all' ||
-      w.topic === activeTopicFilter ||
-      (activeTopicFilter === 'Giao tiếp hàng ngày' && w.topic.includes('Giao tiếp')) ||
-      (activeTopicFilter === 'TOPIK Cốt Lõi' && w.topic.includes('TOPIK'));
+    let matchesTopic = false;
+    if (activeTopicFilter === 'all') {
+      matchesTopic = true;
+    } else if (activeTopicFilter.startsWith('TOPIK ')) {
+      matchesTopic = w.level === activeTopicFilter || `TOPIK ${w.topikLevel}` === activeTopicFilter;
+    } else {
+      matchesTopic =
+        w.topic === activeTopicFilter ||
+        w.topic.toLowerCase().includes(activeTopicFilter.toLowerCase());
+    }
 
     const matchesSearch =
       !searchWordText ||
       w.korean.toLowerCase().includes(searchWordText.toLowerCase()) ||
-      w.vietnamese.toLowerCase().includes(searchWordText.toLowerCase());
+      w.vietnamese.toLowerCase().includes(searchWordText.toLowerCase()) ||
+      (w.hanja && w.hanja.toLowerCase().includes(searchWordText.toLowerCase()));
 
     return matchesTopic && matchesSearch;
   });
@@ -51,7 +57,7 @@ export const ThemedDecks: React.FC = () => {
   };
 
   return (
-    <section className="mt-10 sm:mt-14 w-full">
+    <section id="vocab-list-section" className="mt-10 sm:mt-14 w-full">
       {/* Section Header */}
       <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-6 pb-2 border-b border-[#E8E2D9]">
         <div>
@@ -60,10 +66,10 @@ export const ThemedDecks: React.FC = () => {
             <span>Kho từ vựng có cấu trúc</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-neutral-900 tracking-tight mt-1">
-            Từ Vựng Theo Chủ Đề
+            Từ Vựng Phân Cấp & Chủ Đề
           </h2>
           <p className="text-sm text-neutral-500 mt-0.5">
-            Khám phá và ghi nhớ từ vựng tiếng Hàn phân loại theo các tình huống đời sống & TOPIK
+            Khám phá và ghi nhớ {words.length}+ từ vựng tiếng Hàn đầy đủ 6 cấp độ TOPIK 1 - 6
           </p>
         </div>
 
@@ -73,17 +79,27 @@ export const ThemedDecks: React.FC = () => {
           className="mt-3 sm:mt-0 flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white text-xs sm:text-sm font-bold shadow-xs transition-all hover:shadow cursor-pointer"
         >
           <Layers className="w-4 h-4" />
-          <span>Luyện thẻ Flashcard chủ đề này</span>
+          <span>Luyện thẻ Flashcard ({filteredWords.length} từ)</span>
           <ArrowRight className="w-3.5 h-3.5" />
         </button>
       </div>
 
-      {/* Topic Badges Filter Bar */}
+      {/* Topic & TOPIK Badges Filter Bar */}
       <div className="flex items-center gap-2 overflow-x-auto pb-3 no-scrollbar">
-        {VOCAB_TOPICS.map((topic) => {
+        {VOCAB_TOPICS.map((topic: any) => {
           const isActive =
             (topic.id === 'all' && activeTopicFilter === 'all') ||
             (topic.topicKey && activeTopicFilter === topic.topicKey);
+
+          const count =
+            topic.id === 'all'
+              ? words.length
+              : topic.isTopikLevel
+              ? words.filter(
+                  (w) => w.level === topic.topicKey || w.topikLevel === topic.topikLevel
+                ).length
+              : words.filter((w) => w.topic.includes(topic.topicKey || '')).length;
+
           return (
             <button
               key={topic.id}
@@ -100,7 +116,7 @@ export const ThemedDecks: React.FC = () => {
                   isActive ? 'bg-white/20 text-white' : 'bg-neutral-100 text-neutral-600'
                 }`}
               >
-                {topic.id === 'all' ? words.length : words.filter((w) => w.topic === topic.topicKey).length}
+                {count}
               </span>
             </button>
           );
@@ -120,7 +136,7 @@ export const ThemedDecks: React.FC = () => {
                 <span className="px-2.5 py-1 rounded-lg bg-teal-50 text-teal-800 font-bold border border-teal-200/80">
                   {word.partOfSpeech}
                 </span>
-                <span className="text-[11px] font-semibold text-neutral-400">
+                <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-lg bg-teal-50 text-teal-800 border border-teal-200">
                   {word.level}
                 </span>
               </div>

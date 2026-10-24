@@ -98,32 +98,103 @@ export const MockExams: React.FC = () => {
     };
   };
 
+  const [selectedTopikFilter, setSelectedTopikFilter] = useState<'all' | number>('all');
+
+  // Filter exams based on TOPIK level 1 to 6
+  const filteredExams = MOCK_EXAMS.filter((exam) => {
+    if (selectedTopikFilter === 'all') return true;
+    return exam.topikLevel === selectedTopikFilter;
+  });
+
+  // Level badge styling helper
+  const getLevelBadgeStyle = (levelNum?: number) => {
+    switch (levelNum) {
+      case 1:
+        return 'bg-emerald-50 text-emerald-800 border-emerald-300';
+      case 2:
+        return 'bg-teal-50 text-teal-800 border-teal-300';
+      case 3:
+        return 'bg-blue-50 text-blue-800 border-blue-300';
+      case 4:
+        return 'bg-indigo-50 text-indigo-800 border-indigo-300';
+      case 5:
+        return 'bg-purple-50 text-purple-800 border-purple-300';
+      case 6:
+        return 'bg-amber-50 text-amber-800 border-amber-300';
+      default:
+        return 'bg-neutral-50 text-neutral-800 border-neutral-300';
+    }
+  };
+
   // If no exam selected, show list of available mock exams
   if (!selectedExam) {
     return (
-      <div className="w-full max-w-4xl mx-auto py-4 sm:py-6">
-        <div className="mb-8">
+      <div className="w-full max-w-5xl mx-auto py-2 sm:py-6">
+        <div className="mb-6 sm:mb-8">
           <div className="flex items-center space-x-2 text-teal-700 font-bold text-xs uppercase tracking-wider">
             <Award className="w-4 h-4" />
-            <span>Kiểm tra năng lực chuẩn TOPIK</span>
+            <span>Kiểm tra năng lực chuẩn TOPIK I & II</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-neutral-900 tracking-tight mt-1">
-            Thi Thử Tiếng Hàn Theo Cấp Độ
+          <h2 className="text-xl sm:text-3xl font-extrabold text-neutral-900 tracking-tight mt-1">
+            Thi Thử Tiếng Hàn 6 Cấp Độ (TOPIK 1 - 6)
           </h2>
-          <p className="text-sm text-neutral-500 mt-1">
-            Lựa chọn đề thi thử phù hợp với trình độ mục tiêu của bạn để đánh giá chính xác năng lực từ vựng và phản xạ.
+          <p className="text-xs sm:text-sm text-neutral-500 mt-1 max-w-2xl">
+            Lựa chọn đề thi thử chuẩn cấu trúc đề thi chính thức NIIED theo cấp độ 1 đến 6 để củng cố từ vựng, phản xạ ngữ pháp và tính điểm thời gian thực.
           </p>
+
+          {/* Level Filter Tabs (TOPIK 1 to 6) */}
+          <div className="mt-4 flex items-center gap-1.5 overflow-x-auto pb-2 scrollbar-none">
+            <button
+              onClick={() => setSelectedTopikFilter('all')}
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer ${
+                selectedTopikFilter === 'all'
+                  ? 'bg-teal-600 text-white shadow-xs'
+                  : 'bg-white border border-[#E8E2D9] text-neutral-600 hover:bg-neutral-50'
+              }`}
+            >
+              Tất cả đề ({MOCK_EXAMS.length})
+            </button>
+            {[1, 2, 3, 4, 5, 6].map((lvl) => {
+              const count = MOCK_EXAMS.filter((e) => e.topikLevel === lvl).length;
+              const isActive = selectedTopikFilter === lvl;
+              return (
+                <button
+                  key={lvl}
+                  onClick={() => setSelectedTopikFilter(lvl)}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer flex items-center space-x-1.5 ${
+                    isActive
+                      ? 'bg-teal-600 text-white shadow-xs'
+                      : 'bg-white border border-[#E8E2D9] text-neutral-700 hover:bg-neutral-50'
+                  }`}
+                >
+                  <span>TOPIK {lvl}</span>
+                  <span
+                    className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                      isActive ? 'bg-white/20 text-white' : 'bg-neutral-100 text-neutral-500'
+                    }`}
+                  >
+                    {count} đề
+                  </span>
+                </button>
+              );
+            })}
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          {MOCK_EXAMS.map((exam) => (
+        {/* Responsive Grid of Exams: 1 column on mobile, 2 on tablet, 3 on desktop */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+          {filteredExams.map((exam) => (
             <div
               key={exam.id}
-              className="bg-white rounded-3xl p-6 border border-[#E8E2D9] hover:border-teal-400 hover:shadow-lg transition-all duration-200 flex flex-col justify-between"
+              className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 border border-[#E8E2D9] hover:border-teal-400 hover:shadow-md transition-all duration-200 flex flex-col justify-between"
             >
               <div>
                 <div className="flex items-center justify-between text-xs mb-3">
-                  <span className="px-3 py-1 rounded-full bg-teal-50 text-teal-800 font-bold border border-teal-200">
+                  <span
+                    className={`px-2.5 py-1 rounded-full font-extrabold text-[11px] border ${getLevelBadgeStyle(
+                      exam.topikLevel
+                    )}`}
+                  >
                     {exam.level}
                   </span>
                   <span className="flex items-center space-x-1 text-neutral-400 font-semibold">
@@ -132,22 +203,22 @@ export const MockExams: React.FC = () => {
                   </span>
                 </div>
 
-                <h3 className="text-lg font-bold text-neutral-900 leading-snug">
+                <h3 className="text-base sm:text-lg font-bold text-neutral-900 leading-snug line-clamp-2">
                   {exam.title}
                 </h3>
-                <p className="text-xs text-neutral-500 mt-2 line-clamp-3">
+                <p className="text-xs text-neutral-500 mt-2 line-clamp-2">
                   {exam.description}
                 </p>
 
-                <div className="mt-4 pt-3 border-t border-neutral-100 text-xs font-semibold text-neutral-600 flex items-center space-x-2">
-                  <BookOpen className="w-4 h-4 text-teal-600" />
-                  <span>{exam.questions.length} câu hỏi đa dạng</span>
+                <div className="mt-3 pt-3 border-t border-neutral-100 text-xs font-semibold text-neutral-600 flex items-center space-x-2">
+                  <BookOpen className="w-3.5 h-3.5 text-teal-600" />
+                  <span>{exam.questions.length} câu hỏi đa dạng (kèm phát âm)</span>
                 </div>
               </div>
 
               <button
                 onClick={() => handleStartExam(exam)}
-                className="mt-6 w-full flex items-center justify-center space-x-2 py-3 rounded-2xl bg-teal-600 hover:bg-teal-700 text-white font-bold text-sm shadow-sm transition-all cursor-pointer"
+                className="mt-4 sm:mt-6 w-full flex items-center justify-center space-x-2 py-2.5 sm:py-3 rounded-xl sm:rounded-2xl bg-teal-600 hover:bg-teal-700 active:scale-[0.98] text-white font-bold text-xs sm:text-sm shadow-xs transition-all cursor-pointer"
               >
                 <span>Bắt đầu thi thử</span>
                 <ArrowRight className="w-4 h-4" />

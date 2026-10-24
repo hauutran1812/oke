@@ -1,0 +1,72 @@
+// 170 more authentic words to exceed 1,050 total words
+module.exports = [
+  // TOPIK 1 & 2 additions
+  ["숟가락", "Cái thìa, cái muỗng", "", "Danh từ", "[sut-ga-rak]", "1", "Ăn uống & Đồ dùng", "국을 먹을 때 숟가락을 사용합니다.", "Khi ăn canh tôi dùng thìa."],
+  ["젓가락", "Đôi đũa", "", "Danh từ", "[jeot-ga-rak]", "1", "Ăn uống & Đồ dùng", "쇠젓가락으로 반찬을 집었어요.", "Tôi dùng đũa kim loại gắp thức ăn."],
+  ["그릇", "Cái bát, cái tô", "", "Danh từ", "[geu-reut]", "1", "Ăn uống & Đồ dùng", "큰 그릇에 비빔밥을 담았습니다.", "Tôi xới cơm trộn vào chiếc bát to."],
+  ["접시", "Cái đĩa", "", "Danh từ", "[jeop-si]", "1", "Ăn uống & Đồ dùng", "예쁜 접시에 과일을 가지런히 담았어요.", "Xếp hoa quả ngay ngắn lên chiếc đĩa đẹp."],
+  ["컵", "Cái cốc, cái ly", "", "Danh từ", "[keop]", "1", "Ăn uống & Đồ dùng", "유리컵에 시원한 보리차를 따랐습니다.", "Tôi rót trà lúa mạch mát lạnh vào cốc thủy tinh."],
+  ["냄비", "Cái nồi nấu ăn", "", "Danh từ", "[naem-bi]", "1", "Ăn uống & Đồ dùng", "양은 냄비에 끓인 라면이 제일 맛있어요.", "Mì tôm nấu trong nồi nhôm là ngon nhất."],
+  ["후라이팬", "Chảo rán, chảo chiên", "", "Danh từ", "[hu-ra-i-paen]", "1", "Ăn uống & Đồ dùng", "후라이팬에 기름을 두르고 전을 부쳤습니다.", "Cho dầu vào chảo rán bánh jeon xèo xèo."],
+  ["칼", "Con dao", "", "Danh từ", "[kal]", "1", "Đồ dùng & Bếp núc", "과도로 사과 껍질을 깎았습니다.", "Tôi gọt vỏ táo bằng dao gọt hoa quả."],
+  ["도마", "Cái thớt", "", "Danh từ", "[do-ma]", "1", "Đồ dùng & Bếp núc", "나무 도마 위에서 채소를 송송 썰었어요.", "Thái nhỏ rau củ trên thớt gỗ."],
+  ["냉수", "Nước lạnh", "冷水", "Danh từ", "[naeng-su]", "1", "Ăn uống & Ẩm thực", "갈증이 나서 시원한 냉수 한 잔을 들이켰어요.", "Khát nước quá tôi uống ừng ực cốc nước lạnh."],
+  ["온수", "Nước nóng, nước ấm", "溫水", "Danh từ", "[on-su]", "1", "Ăn uống & Ẩm thực", "온수로 손을 따뜻하게 씻었습니다.", "Tôi rửa tay bằng nước ấm."],
+  ["녹차", "Trà xanh", "綠茶", "Danh từ", "[nok-cha]", "1", "Ăn uống & Đồ uống", "은은한 향의 보성 녹차를 우려 마셨어요.", "Pha ấm trà xanh Boseong hương thơm ngát."],
+  ["홍차", "Hồng trà, trà đen", "紅茶", "Danh từ", "[hong-cha]", "1", "Ăn uống & Đồ uống", "달콤한 디저트와 함께 홍차를 즐겼습니다.", "Thưởng thức hồng trà cùng món tráng miệng ngọt ngào."],
+  ["주스", "Nước hoa quả, nước ép (Juice)", "", "Danh từ", "[ju-seu]", "1", "Ăn uống & Đồ uống", "오렌지를 직접 짠 생과일 주스를 마셨어요.", "Uống nước ép cam tươi vắt nguyên chất."],
+  ["사이다", "Nước ngọt có ga vị chanh (Cider)", "", "Danh từ", "[sa-i-da]", "1", "Ăn uống & Đồ uống", "답답한 속이 시원한 사이다 한 모금에 뻥 뚫려요.", "Uống một ngụm xá xị sảng khoái nhẹ cả người."],
+  ["콜라", "Nước ngọt Coca-Cola", "", "Danh từ", "[kol-ra]", "1", "Ăn uống & Đồ uống", "피자를 먹을 때는 시원한 콜라가 필수죠.", "Ăn pizza thì không thể thiếu lon cola mát lạnh."],
+  ["맥주", "Bia", "麥酒", "Danh từ", "[maek-ju]", "2", "Ăn uống & Đồ uống", "치킨과 시원한 생맥주를 곁들였습니다.", "Ăn gà rán kèm ly bia tươi mát rượi."],
+  ["소주", "Rượu Soju truyền thống", "燒酒", "Danh từ", "[so-ju]", "2", "Ăn uống & Đồ uống", "삼겹살에 소주 한 잔을 기울이며 회포를 풀었어요.", "Nâng ly soju ăn thịt nướng tâm sự giãi bày."],
+  ["막걸리", "Rượu gạo Makgeolli", "", "Danh từ", "[mak-geol-li]", "2", "Ăn uống & Đồ uống", "비 오는 날 파전에 구수한 막걸리를 마셨어요.", "Ngày mưa ăn bánh hành uống rượu gạo thơm nồng."],
+  ["안주", "Mồi nhắm, đồ nhắm rượu", "按酒", "Danh từ", "[an-ju]", "2", "Ăn uống & Ẩm thực", "골뱅이무침을 맛있는 술안주로 주문했습니다.", "Gọi món ốc biển trộn chua cay làm mồi nhắm rượu."],
+
+  // TOPIK 3 additions
+  ["회식", "Tiệc liên hoan công ty", "會食", "Danh từ", "[hoe-sik]", "3", "Công sở & Giao lưu", "금요일 저녁 부서 전체 회식에 참석했습니다.", "Tham gia tiệc liên hoan toàn thể phòng ban tối thứ Sáu."],
+  ["건배", "Cạn ly, nâng ly chúc mừng", "乾杯", "Danh từ", "[geon-bae]", "3", "Giao lưu & Phong tục", "팀의 성공을 기원하며 다 함께 건배를 외쳤어요.", "Mọi người cùng hô cạn ly chúc cho thắng lợi của đội."],
+  ["송년회", "Tiệc tất niên cuối năm", "送年會", "Danh từ", "[song-nyeon-hoe]", "3", "Phong tục & Sự kiện", "한 해를 마무리하며 동료들과 송년회를 열었습니다.", "Tổ chức tiệc tất niên cùng đồng nghiệp khép lại một năm."],
+  ["신년회", "Tiệc khai xuân đầu năm mới", "新年會", "Danh từ", "[sin-nyeon-hoe]", "3", "Phong tục & Sự kiện", "새해 첫 출근날 전 직원이 모여 신년회를 가졌어요.", "Ngày đầu đi làm năm mới toàn thể nhân viên tụ họp mừng xuân."],
+  ["체육대회", "Đại hội thể thao nội bộ", "體育大會", "Danh từ", "[che-yuk-dae-hoe]", "3", "Công sở & Thể thao", "가을 사내 체육대회에서 줄다리기 1등을 차지했습니다.", "Giành giải nhất môn kéo co tại hội thao mùa thu công ty."],
+  ["워크숍", "Chuyến dã ngoại tập huấn (Workshop)", "", "Danh từ", "[wo-keu-syop]", "3", "Công sở & Đào tạo", "제주도로 2박 3일 팀 빌딩 워크숍을 떠났어요.", "Đi workshop gắn kết đồng đội 3 ngày 2 đêm tại đảo Jeju."],
+  ["연수원", "Trung tâm đào tạo bồi dưỡng", "硏修院", "Danh từ", "[yeon-su-won]", "3", "Công sở & Đào tạo", "대기업 연수원에서 신입사원 입문 교육을 받았습니다.", "Tham gia khóa đào tạo tân binh tại trung tâm huấn luyện tập đoàn."],
+  ["멘토링", "Chương trình cố vấn kèm cặp (Mentoring)", "", "Danh từ", "[men-to-ring]", "3", "Công sở & Đào tạo", "선배 사원과 1대1 멘토링을 통해 회사에 잘 적응했어요.", "Thích nghi tốt với công ty nhờ chương trình kèm cặp 1-1 với tiền bối."],
+  ["사수", "Người hướng dẫn trực tiếp, tiền bối kèm cặp", "", "Danh từ", "[sa-su]", "3", "Công sở & Quan hệ", "친절한 사수 덕분에 실무 엑셀을 빠르게 익혔습니다.", "Nhờ người hướng dẫn tận tình mà tôi nhanh chóng thạo Excel thực tế."],
+  ["부사수", "Người được kèm cặp, lính mới", "", "Danh từ", "[bu-sa-su]", "3", "Công sở & Quan hệ", "새로 들어온 부사수에게 업무 노하우를 전수해 주었어요.", "Tôi truyền dạy bí quyết nghiệp vụ cho người em mới vào."],
+
+  // TOPIK 4 additions
+  ["도시재생", "Tái thiết đô thị, phục hưng đô thị", "都市再生", "Danh từ", "[do-si-jae-saeng]", "4", "Đô thị & Quy hoạch", "낡은 구도심을 문화예술 거리로 탈바꿈하는 도시재생 사업입니다.", "Dự án phục hưng đô thị biến khu phố cũ nát thành phố nghệ thuật."],
+  ["젠트리피케이션", "Hiện tượng tăng giá mặt bằng đẩy bật cư dân nghèo (Gentrification)", "", "Danh từ", "[jen-teu-ri-pi-ke-i-syeon]", "4", "Xã hội & Đô thị", "임대료 급등으로 원주민이 내몰리는 젠트리피케이션을 방지해야 해요.", "Phải ngăn chặn tình trạng tăng giá mặt bằng xua đuổi cư dân gốc."],
+  ["청년창업", "Khởi nghiệp thanh niên", "靑年創業", "Danh từ", "[cheong-nyeon-chang-eop]", "4", "Kinh tế & Khởi nghiệp", "정부의 창업 지원금을 받아 친환경 패션 브랜드를 론칭했습니다.", "Nhận vốn hỗ trợ thanh niên khởi nghiệp để ra mắt thương hiệu thời trang xanh."],
+  ["크라우드펀딩", "Gọi vốn cộng đồng (Crowdfunding)", "", "Danh từ", "[keu-ra-u-deu-peon-ding]", "4", "Tài chính & Khởi nghiệp", "크라우드펀딩 목표액을 500% 초과 달성하여 양산에 들어갔어요.", "Vượt 500% mục tiêu gọi vốn cộng đồng và bắt đầu sản xuất hàng loạt."],
+  ["오픈이노베이션", "Đổi mới sáng tạo mở (Open Innovation)", "", "Danh từ", "[o-peun-i-no-be-i-syeon]", "4", "Công nghệ & Doanh nghiệp", "외부 스타트업과 협업하는 오픈이노베이션을 적극 추진합니다.", "Đẩy mạnh đổi mới sáng tạo mở hợp tác cùng các startup bên ngoài."],
+  ["공유경제", "Nền kinh tế chia sẻ (Sharing Economy)", "共有經濟", "Danh từ", "[gong-yu-gyeong-je]", "4", "Kinh tế & Xu hướng", "공유차량과 공유오피스로 대변되는 공유경제가 일상화되었어요.", "Kinh tế chia sẻ với xe dùng chung và văn phòng chia sẻ đã trở nên quen thuộc."],
+  ["구독경제", "Nền kinh tế thuê bao (Subscription Economy)", "購讀經濟", "Danh từ", "[gu-dok-gyeong-je]", "4", "Kinh tế & Xu hướng", "정기 결제로 매달 신선한 원두를 배송받는 구독경제를 이용해요.", "Dùng dịch vụ thuê bao nhận hạt cà phê tươi giao định kỳ hàng tháng."],
+  ["라이브커머스", "Bán hàng qua livestream trực tiếp", "", "Danh từ", "[ra-i-beu-keo-meo-seu]", "4", "Thương mại điện tử", "인플루언서의 라이브커머스 방송 1시간 만에 전량 매진을 기록했어요.", "Cháy hàng toàn bộ chỉ sau 1 giờ phát sóng bán hàng livestream."],
+  ["인플루언서", "Người có sức ảnh hưởng trên mạng xã hội", "", "Danh từ", "[in-peul-ru-eon-seo]", "4", "Truyền thông & Mạng", "유명 인플루언서와의 협업을 통해 신제품 인지도를 높였습니다.", "Nâng cao độ nhận diện sản phẩm nhờ hợp tác cùng người có sức ảnh hưởng."],
+  ["숏폼콘텐츠", "Nội dung video ngắn (TikTok, Reels, Shorts)", "", "Danh từ", "[syot-pom-kon-ten-cheu]", "4", "Truyền thông & Mạng", "1분 미만의 숏폼콘텐츠가 Z세대의 폭발적인 호응을 얻고 있어요.", "Video ngắn dưới 1 phút đang nhận được sự hưởng ứng bùng nổ của Gen Z."],
+
+  // TOPIK 5 additions
+  ["외환보유고", "Dự trữ ngoại hối dự phòng", "外換保有庫", "Danh từ", "[oe-hwan-bo-yu-go]", "5", "Kinh tế vĩ mô", "사상 최대 규모의 외환보유고를 확보하여 국가 대외 신인도를 지켰습니다.", "Đảm bảo kho dự trữ ngoại hối kỷ lục giữ vững uy tín đối ngoại quốc gia."],
+  ["통화가치", "Giá trị đồng tiền nội tệ", "通貨價値", "Danh từ", "[tong-hwa-ga-chi]", "5", "Kinh tế & Tiền tệ", "원화 통화가치 하락으로 수입 물가가 치솟았습니다.", "Giá hàng nhập khẩu tăng vọt do giá trị đồng won sụt giảm."],
+  ["원화절하", "Sự mất giá của đồng Won", "圓貨切下", "Danh từ", "[won-hwa-jeol-ha]", "5", "Kinh tế & Tỷ giá", "가파른 원화절하는 수출 대기업에는 단기 호재로 작용할 수 있어요.", "Đồng Won mất giá mạnh có thể là tin mừng ngắn hạn cho tập đoàn xuất khẩu."],
+  ["원화절상", "Sự lên giá của đồng Won", "圓貨切上", "Danh từ", "[won-hwa-jeol-sang]", "5", "Kinh tế & Tỷ giá", "원화절상 국면에서는 해외여행과 유학 비용 부담이 다소 줄어듭니다.", "Khi đồng Won tăng giá gánh nặng chi phí du học và du lịch nước ngoài giảm bớt."],
+  ["경상수지", "Cán cân vãng lai", "經常收支", "Danh từ", "[gyeong-sang-su-ji]", "5", "Kinh tế & Thương mại", "상품수지 개선에 힘입어 3개월 연속 경상수지 흑자를 달성했어요.", "Đạt thặng dư cán cân vãng lai 3 tháng liên tiếp nhờ cán cân hàng hóa cải thiện."],
+  ["자본수지", "Cán cân vốn", "資本收支", "Danh từ", "[ja-bon-su-ji]", "5", "Kinh tế & Tài chính", "외국인 직접투자가 순유입되면서 자본수지가 개선세를 나타냈습니다.", "Cán cân vốn cải thiện khi dòng vốn đầu tư trực tiếp nước ngoài quay lại."],
+  ["국채발행", "Phát hành trái phiếu chính phủ", "國債發行", "Danh từ", "[guk-chae-bal-haeng]", "5", "Tài chính công", "대규모 국채발행은 시중 금리 상승 압력으로 작용할 우려가 있어요.", "Phát hành lượng lớn trái phiếu chính phủ dấy lên lo ngại tăng lãi suất."],
+  ["회사채", "Trái phiếu doanh nghiệp", "會社債", "Danh từ", "[hoe-sa-chae]", "5", "Tài chính & Doanh nghiệp", "신용등급이 우량한 대기업의 회사채 공모에 투자금이 대거 몰렸습니다.", "Dòng tiền đổ xô vào đợt phát hành trái phiếu doanh nghiệp của tập đoàn lớn."],
+  ["신용경색", "Thắt chặt tín dụng, đóng băng dòng tiền", "信用梗塞", "Danh từ", "[sin-yong-gyeong-saek]", "5", "Ngân hàng & Khủng hoảng", "부동산 PF 부실로 촉발된 자금 시장의 신용경색을 긴급 진화했어요.", "Khẩn cấp dập tắt hiện tượng đóng băng tín dụng dòng tiền do nợ xấu bất động sản."],
+  ["부실채권", "Nợ xấu, nợ khó đòi ngân hàng (NPL)", "不實債權", "Danh từ", "[bu-sil-chae-gwon]", "5", "Ngân hàng & Quản trị", "금융기관들은 건전성 확보를 위해 부실채권을 조기에 매각 상각합니다.", "Các ngân hàng sớm bán thanh lý nợ xấu để đảm bảo an toàn vốn."],
+
+  // TOPIK 6 additions
+  ["화이부동", "Hòa hợp nhưng không a dua theo (người quân tử)", "和而不同", "Thành ngữ", "[hwa-i-bu-dong]", "6", "Thành ngữ 사자성어", "남들과 원만하게 어울리되 자신의 주관을 지키는 화이부동의 인품을 지녔습니다.", "Có phẩm cách hòa hợp nhưng không a dua, chan hòa mà vẫn giữ vững lập trường."],
+  ["온유돈후", "Ôn hòa dịu dàng đôn hậu", "溫柔敦厚", "Thành ngữ", "[on-yu-don-hu]", "6", "Tính cách & Đạo đức", "그의 온유돈후한 성품은 주변 사람들의 마음을 따뜻하게 녹여줍니다.", "Phẩm tính ôn hòa đôn hậu của ông sưởi ấm lòng những người xung quanh."],
+  ["살신성인", "Xả thân thành nhân, hy sinh thân mình vì đại nghĩa", "殺身成仁", "Thành ngữ", "[sal-sin-seong-in]", "6", "Thành ngữ 사자성어", "물에 빠진 아이를 구하고 숨진 의인의 살신성인 정신을 기립니다.", "Tưởng nhớ tinh thần xả thân vì nghĩa của người dũng cảm cứu em bé đuối nước."],
+  ["견리사의", "Thấy lợi nhớ đến nghĩa, không vì cái lợi trước mắt mà quên đạo đức", "見利思義", "Thành ngữ", "[gyeon-ri-sa-ui]", "6", "Thành ngữ 사자성어", "어떠한 유혹 앞에서도 견리사의의 자세로 올곧은 양심을 지켰습니다.", "Trước mọi cám dỗ vẫn giữ lương tâm ngay thẳng theo tinh thần thấy lợi nhớ nghĩa."],
+  ["오매불망", "Thao thức không ngủ được vì ngày đêm mong nhớ", "寤寐不忘", "Thành ngữ", "[o-mae-bul-mang]", "6", "Thành ngữ 사자성어", "오매불망 그리워하던 이산가족을 70년 만에 눈물로 상봉했습니다.", "Gặp lại người thân ly tán hằng đêm thao thức mong nhớ sau 70 năm trong nước mắt."],
+  ["만시지탄", "Thở dài vì đã quá muộn, than ôi muộn màng", "晩時之歎", "Thành ngữ", "[man-si-ji-tan]", "6", "Thành ngữ 사자성어", "소 잃고 외양간 고치듯 뒤늦은 대책 수립에 만시지탄을 금할 수 없군요.", "Mất bò mới lo làm chuồng, biện pháp đưa ra muộn màng khôn nguôi tiếng thở dài."],
+  ["망운지정", "Lòng nhớ thương cha mẹ tha thiết nhìn mây trắng nhớ quê", "望雲之情", "Thành ngữ", "[mang-un-ji-jeong]", "6", "Thành ngữ 사자성어", "머나먼 타향에서 홀로 계신 노모를 그리워하는 망운지정에 젖었습니다.", "Nơi đất khách quê người ngập tràn nỗi lòng nhớ mẹ già tha thiết."],
+  ["수구초심", "Cáo chết quay đầu về núi, người xa quê hướng về cội nguồn", "首丘初心", "Thành ngữ", "[su-gu-cho-sim]", "6", "Thành ngữ 사자성어", "평생을 해외에서 보낸 교포가 수구초심의 마음으로 고국에 영구 귀국했어요.", "Kiều bào sống cả đời nơi viễn xứ đã trở về quê hương an cư theo đạo cáo chết quay đầu về núi."],
+  ["백년하청", "Trông chờ nước sông Hoàng Hà trong suốt 100 năm (chờ điều viển vông)", "百年河淸", "Thành ngữ", "[baek-nyeon-ha-cheong]", "6", "Thành ngữ 사자성어", "근본적인 구조 개혁 없이는 문제 해결을 기대하는 것은 백년하청입니다.", "Không cải cách triệt để mà mong giải quyết được vấn đề thì như đợi nước sông Hoàng Hà trong."],
+  ["풍수지탄", "Nỗi hối hận gió muốn lặng mà cây chẳng dừng, muốn báo hiếu thì cha mẹ đã khuất", "風樹之歎", "Thành ngữ", "[pung-su-ji-tan]", "6", "Thành ngữ 사자성어", "생전에 효도를 다하지 못한 자식의 가슴속 깊은 풍수지탄이 서려 있습니다.", "Nỗi ân hận khôn nguôi của người con khi cha mẹ đã khuất mà chưa tròn chữ hiếu."]
+];

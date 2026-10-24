@@ -22,18 +22,31 @@ export const FlashcardReview: React.FC = () => {
   const {
     words,
     customNotebooks,
+    activeTopicFilter,
     updateWordMastery,
     openSaveWordModal,
     openPronounceModal,
   } = useApp();
 
-  const [activeDeckFilter, setActiveDeckFilter] = useState<'all' | 'needs_review' | string>('all');
+  const [activeDeckFilter, setActiveDeckFilter] = useState<'all' | 'needs_review' | string>(() => {
+    if (activeTopicFilter && (activeTopicFilter.startsWith('TOPIK') || activeTopicFilter.startsWith('topik'))) {
+      return activeTopicFilter;
+    }
+    return 'all';
+  });
   const [deck, setDeck] = useState<VocabWord[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [audioSpeed, setAudioSpeed] = useState<'normal' | 'slow'>('normal');
   const [sessionCompleted, setSessionCompleted] = useState(false);
   const [sessionStats, setSessionStats] = useState({ easy: 0, good: 0, hard: 0 });
+
+  // Sync if global activeTopicFilter changes to a TOPIK level
+  useEffect(() => {
+    if (activeTopicFilter && activeTopicFilter.startsWith('TOPIK')) {
+      setActiveDeckFilter(activeTopicFilter);
+    }
+  }, [activeTopicFilter]);
 
   // Build deck based on selected filter
   useEffect(() => {
@@ -44,11 +57,16 @@ export const FlashcardReview: React.FC = () => {
     } else if (activeDeckFilter === 'needs_review') {
       targetWords = words.filter((w) => w.masteryStatus === 'hard' || w.masteryStatus === 'unlearned');
       if (targetWords.length === 0) targetWords = [...words.slice(0, 10)];
+    } else if (activeDeckFilter.startsWith('TOPIK ') || activeDeckFilter.startsWith('topik-')) {
+      const lvlStr = activeDeckFilter.replace('topik-', 'TOPIK ');
+      targetWords = words.filter((w) => w.level === lvlStr || `TOPIK ${w.topikLevel}` === lvlStr);
     } else {
-      // Custom notebook ID
+      // Custom notebook ID or topic
       const nb = customNotebooks.find((n) => n.id === activeDeckFilter);
       if (nb) {
         targetWords = words.filter((w) => nb.wordIds.includes(w.id));
+      } else {
+        targetWords = words.filter((w) => w.topic === activeDeckFilter);
       }
     }
 
@@ -194,11 +212,23 @@ export const FlashcardReview: React.FC = () => {
           >
             <option value="all">Tất cả ({words.length} từ)</option>
             <option value="needs_review">Từ chưa thuộc / Cần ôn gấp</option>
-            {customNotebooks.map((nb) => (
-              <option key={nb.id} value={nb.id}>
-                {nb.icon} {nb.title} ({nb.wordIds.length} từ)
-              </option>
-            ))}
+            <optgroup label="Cấp độ TOPIK">
+              <option value="TOPIK 1">TOPIK 1 - Sơ cấp 1 ({words.filter(w => w.topikLevel === 1 || w.level === 'TOPIK 1').length} từ)</option>
+              <option value="TOPIK 2">TOPIK 2 - Sơ cấp 2 ({words.filter(w => w.topikLevel === 2 || w.level === 'TOPIK 2').length} từ)</option>
+              <option value="TOPIK 3">TOPIK 3 - Trung cấp 3 ({words.filter(w => w.topikLevel === 3 || w.level === 'TOPIK 3').length} từ)</option>
+              <option value="TOPIK 4">TOPIK 4 - Trung cấp 4 ({words.filter(w => w.topikLevel === 4 || w.level === 'TOPIK 4').length} từ)</option>
+              <option value="TOPIK 5">TOPIK 5 - Cao cấp 5 ({words.filter(w => w.topikLevel === 5 || w.level === 'TOPIK 5').length} từ)</option>
+              <option value="TOPIK 6">TOPIK 6 - Cao cấp 6 ({words.filter(w => w.topikLevel === 6 || w.level === 'TOPIK 6').length} từ)</option>
+            </optgroup>
+            {customNotebooks.length > 0 && (
+              <optgroup label="Sổ tay cá nhân">
+                {customNotebooks.map((nb) => (
+                  <option key={nb.id} value={nb.id}>
+                    {nb.icon} {nb.title} ({nb.wordIds.length} từ)
+                  </option>
+                ))}
+              </optgroup>
+            )}
           </select>
 
           <button
